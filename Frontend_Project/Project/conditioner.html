@@ -1,0 +1,538 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+    <!-- 1. HERO BANNER -->
+<section class="bg-[#F3F7F4] py-16">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="order-2 md:order-1 pt-18">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDqgJNZrzT0SWQJtoNuQtMbNF_MzLjKU5cvCUibpBlLA&s=10" alt="Conditioner Collection" class="w-full h-[430px] object-cover rounded-3xl">
+            </div>
+            <div class="order-1 md:order-2">
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">HAIR CARE ESSENTIALS</p>
+                <h1 class="text-4xl md:text-5xl font-serif font-bold text-gray-800 mt-4 leading-tight">
+                    Soft Hair <span class="text-[#40826D]">Starts Here</span>
+                </h1>
+                <p class="text-gray-500 mt-5 leading-7 max-w-md">
+                    Give your hair the care it deserves with nourishing conditioners made for softness, smoothness and shine.
+                </p>
+                <button class="mt-7 bg-[#40826D] text-white px-7 py-3 rounded-full hover:bg-[#326B58] transition">
+                    Shop Conditioners
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2. CHOOSE YOUR HAIR BENEFIT -->
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">WHAT DOES YOUR HAIR NEED?</p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-3">Choose Your Hair Benefit</h2>
+            <p class="text-gray-500 mt-3 max-w-xl mx-auto">
+                Pick the care your hair needs and find a conditioner that fits your routine.
+            </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="flex items-center gap-5 bg-[#F3F7F4] p-6 rounded-2xl">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-2xl">💧</div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Deep Hydration</h3>
+                    <p class="text-gray-500 text-sm mt-1">For dry and thirsty hair that needs extra moisture.</p>
+                </div>
+                <span class="ml-auto text-[#40826D]">→</span>
+            </div>
+            <div class="flex items-center gap-5 bg-[#F8F3F1] p-6 rounded-2xl">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-2xl">✨</div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Frizz Control</h3>
+                    <p class="text-gray-500 text-sm mt-1">Helps make rough and frizzy hair feel smoother.</p>
+                </div>
+                <span class="ml-auto text-[#40826D]">→</span>
+            </div>
+            <div class="flex items-center gap-5 bg-[#F8F3F1] p-6 rounded-2xl">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-2xl">🛡️</div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Damage Repair</h3>
+                    <p class="text-gray-500 text-sm mt-1">Nourishing care for dry and damaged hair.</p>
+                </div>
+                <span class="ml-auto text-[#40826D]">→</span>
+            </div>
+            <div class="flex items-center gap-5 bg-[#F3F7F4] p-6 rounded-2xl">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center text-2xl">🌿</div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Smooth & Shine</h3>
+                    <p class="text-gray-500 text-sm mt-1">Add softness and a healthy-looking shine.</p>
+                </div>
+                <span class="ml-auto text-[#40826D]">→</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 3. CONDITIONER COLLECTION -->
+<section class="py-20 bg-[#F8F3F1]">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+            <div>
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">OUR HAIR CARE</p>
+                <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Conditioner Collection</h2>
+            </div>
+            <a href="#" class="text-[#40826D] font-semibold mt-4 md:mt-0">View All →</a>
+        </div>
+        <div class="grid lg:grid-cols-3 gap-6">
+            <div class="lg:row-span-2 bg-white rounded-3xl overflow-hidden">
+                <div class="h-[390px]">
+                    <img src="https://roobzhair.com/cdn/shop/files/Deep_Hydration_Conditioner.jpg?v=1773018443&width=1920" alt="Deep Hydration Conditioner" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <span class="text-xs text-[#40826D] font-semibold">DEEP HYDRATION</span>
+                    <h3 class="text-2xl font-serif font-bold text-gray-800 mt-2">Deep Hydration Conditioner</h3>
+                    <p class="text-gray-500 mt-2 text-sm leading-6">
+                        Helps restore moisture and leaves dry hair feeling soft and easy to manage.
+                    </p>
+                    <div class="flex items-center justify-between mt-5">
+                        <span class="text-xl font-bold text-[#40826D]">₹699</span>
+                        <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl p-4 flex gap-4 items-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1vJDmq24GKGqrwk0J59s8w0nI9l6mvypvQk1fvw7RVQ&s" alt="Anti Frizz Conditioner" class="w-32 h-32 object-cover rounded-xl">
+                <div>
+                    <h3 class="font-semibold text-gray-800">Anti-Frizz Conditioner</h3>
+                    <p class="text-gray-500 text-sm mt-2">Smooth and manageable hair.</p>
+                    <p class="text-[#40826D] font-bold mt-3">₹649</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl p-4 flex gap-4 items-center">
+                <img src="https://purenutrition.in/cdn/shop/files/50.jpg?v=1767988006&width=1445" alt="Repair Conditioner" class="w-32 h-32 object-cover rounded-xl">
+                <div>
+                    <h3 class="font-semibold text-gray-800">Damage Repair Conditioner</h3>
+                    <p class="text-gray-500 text-sm mt-2">Care for dry and damaged hair.</p>
+                    <p class="text-[#40826D] font-bold mt-3">₹749</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl p-4 flex gap-4 items-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkedrp6em5ZfIkzRVYwdf_g5s1b5Rj6VYpBBMEaXuHA&s=10" alt="Shine Conditioner" class="w-32 h-32 object-cover rounded-xl">
+                <div>
+                    <h3 class="font-semibold text-gray-800">Shine Boost Conditioner</h3>
+                    <p class="text-gray-500 text-sm mt-2">Adds softness and shine.</p>
+                    <p class="text-[#40826D] font-bold mt-3">₹679</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. BEST SELLERS -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-10">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">MOST LOVED</p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Best Sellers</h2>
+            <p class="text-gray-500 mt-3">Conditioner favorites chosen again and again.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl bg-[#F8F3F1]">
+                    <img src="https://m.media-amazon.com/images/I/51bhPRu8j8L._AC_UF1000,1000_QL80_.jpg" alt="Coconut Conditioner" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Coconut Nourish Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹629</span>
+                    <span class="text-yellow-500 text-sm">★ 4.9</span>
+                </div>
+                <button class="w-full mt-4 border border-[#40826D] text-[#40826D] py-2.5 rounded-full hover:bg-[#40826D] hover:text-white transition">Add to Cart</button>
+            </div>
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl bg-[#F8F3F1]">
+                    <img src="https://i0.wp.com/2.bp.blogspot.com/-twwQvr4sfQs/UbvPVACNnSI/AAAAAAAAMB8/aRR3LPdgscA/s1600/_MG_3356.JPG" alt="Keratin Conditioner" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Keratin Smooth Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹729</span>
+                    <span class="text-yellow-500 text-sm">★ 4.8</span>
+                </div>
+                <button class="w-full mt-4 border border-[#40826D] text-[#40826D] py-2.5 rounded-full hover:bg-[#40826D] hover:text-white transition">Add to Cart</button>
+            </div>
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl bg-[#F8F3F1]">
+                    <img src="https://vitamilla.in/wp-content/uploads/2024/11/IMG-20241224-WA0008.jpg" alt="Argan Conditioner" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Argan Oil Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹749</span>
+                    <span class="text-yellow-500 text-sm">★ 4.9</span>
+                </div>
+                <button class="w-full mt-4 border border-[#40826D] text-[#40826D] py-2.5 rounded-full hover:bg-[#40826D] hover:text-white transition">Add to Cart</button>
+            </div>
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl bg-[#F8F3F1]">
+                    <img src="https://curaloefarm.com/cdn/shop/files/CuraloeSilver800x800px-Conditioner250ml_5_8b9e2cdb-d5e2-4acf-8a51-9a10514599e7.png?v=1721394453&width=800" alt="Aloe Conditioner" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Aloe Vera Soft Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹599</span>
+                    <span class="text-yellow-500 text-sm">★ 4.7</span>
+                </div>
+                <button class="w-full mt-4 border border-[#40826D] text-[#40826D] py-2.5 rounded-full hover:bg-[#40826D] hover:text-white transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. OFFERS & DEALS -->
+<section class="py-20 bg-[#EEF5F1]">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-10">
+            <div>
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">SPECIAL SAVINGS</p>
+                <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Offers & Deals</h2>
+            </div>
+            <p class="text-gray-500 mt-3 md:mt-0">Limited-time offers on selected conditioners.</p>
+        </div>
+        <div class="space-y-5">
+            <div class="bg-white rounded-2xl p-5 flex flex-col md:flex-row items-center gap-6">
+                <div class="relative">
+                    <img src="https://bondiboost.com.au/cdn/shop/files/HeavenlyHydration_PDP_03.jpg?v=1781211591&width=416" alt="Hydrating Conditioner" class="w-40 h-40 object-cover rounded-xl">
+                    <span class="absolute top-2 left-2 bg-[#40826D] text-white text-xs px-2 py-1 rounded-full">20% OFF</span>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-800">Hydration Boost Conditioner</h3>
+                    <p class="text-gray-500 text-sm mt-2">Gives dry hair a soft and moisturized feel.</p>
+                    <p class="text-red-500 text-sm mt-3">🔥 Only 3 left</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-400 line-through">₹799</p>
+                    <p class="text-xl font-bold text-[#40826D]">₹639</p>
+                    <button class="mt-3 bg-[#40826D] text-white px-5 py-2 rounded-full">Shop Deal</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl p-5 flex flex-col md:flex-row items-center gap-6">
+                <div class="relative">
+                    <img src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,dpr-2/static/img/product/360261/juicy-chemistry-repair-and-restore-conditioner-for-dry-and-frizzy-hair-made-with-barley-and-calendula-certified-organic-200-ml_2_display_1690448601_185a8a99.jpg" alt="Repair Conditioner" class="w-40 h-40 object-cover rounded-xl">
+                    <span class="absolute top-2 left-2 bg-[#40826D] text-white text-xs px-2 py-1 rounded-full">15% OFF</span>
+                </div>
+                <div class="flex-1">
+                    <h3 class="text-xl font-semibold text-gray-800">Repair & Restore Conditioner</h3>
+                    <p class="text-gray-500 text-sm mt-2">Nourishing care for dry and damaged hair.</p>
+                    <p class="text-red-500 text-sm mt-3">⚡ Limited Stock</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-400 line-through">₹899</p>
+                    <p class="text-xl font-bold text-[#40826D]">₹764</p>
+                    <button class="mt-3 bg-[#40826D] text-white px-5 py-2 rounded-full">Shop Deal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONDITIONER BY HAIR TYPE -->
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">FIND YOUR MATCH</p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Conditioner by Hair Type</h2>
+        </div>
+        <div class="flex flex-wrap justify-center gap-10">
+            <div class="text-center">
+                <div class="w-32 h-32 rounded-full overflow-hidden">
+                    <img src="https://crlab.com/media/contentmanager/content/secchi.jpg" alt="Dry Hair" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Dry Hair</h3>
+                <p class="text-sm text-gray-500 mt-1">Extra moisture</p>
+            </div>
+            <div class="text-center">
+                <div class="w-32 h-32 rounded-full overflow-hidden">
+                    <img src="https://images-static.nykaa.com/contentmedia/scms-assets/uploads/2024/11/curly-hairstyle-19.jpg" alt="Curly Hair" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Curly Hair</h3>
+                <p class="text-sm text-gray-500 mt-1">Curl care</p>
+            </div>
+            <div class="text-center">
+                <div class="w-32 h-32 rounded-full overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwx-HQl4YsDanJxio6lSdqsedeuAyZk6mNRSbGTSYJkXXnuUQiHBVnn4k&s=10" alt="Frizzy Hair" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Frizzy Hair</h3>
+                <p class="text-sm text-gray-500 mt-1">Smooth & tame</p>
+            </div>
+            <div class="text-center">
+                <div class="w-32 h-32 rounded-full overflow-hidden">
+                    <img src="https://images-static.nykaa.com/contentmedia/scms-assets/uploads/2024/09/trendy-red-hair-4.jpg" alt="Colored Hair" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Colored Hair</h3>
+                <p class="text-sm text-gray-500 mt-1">Color care</p>
+            </div>
+            <div class="text-center">
+                <div class="w-32 h-32 rounded-full overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrYFUFPND9-m_VVfdgbU6y1c0yuHPqN0tPesByoRSV9z2NASunebYStfc&s=10" alt="Normal Hair" class="w-full h-full object-cover">
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Normal Hair</h3>
+                <p class="text-sm text-gray-500 mt-1">Everyday care</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 7. CUSTOMER FAVORITES -->
+<section class="py-20 bg-[#F8F3F1]">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-5 gap-8 items-center">
+            <div class="md:col-span-2">
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">REAL CUSTOMER LOVE</p>
+                <h2 class="text-4xl font-serif font-bold text-gray-800 mt-3">Customer Favorites</h2>
+                <div class="text-yellow-500 mt-5">★★★★★</div>
+                <p class="text-gray-600 leading-7 mt-4">
+                    “This conditioner made my hair feel so soft and manageable. I love how smooth it feels after every wash.”
+                </p>
+                <p class="text-[#40826D] font-semibold mt-4">— Keerthana</p>
+            </div>
+            <div class="md:col-span-3 grid sm:grid-cols-2 gap-5">
+                <div class="bg-white p-4 rounded-2xl flex gap-4 items-center">
+                    <img src="https://hairloveindia.com/cdn/shop/files/conditioner-for-frizzy-damaged-hair-india.jpg?v=1785649614" alt="Customer Favorite" class="w-24 h-28 object-cover rounded-xl">
+                    <div>
+                        <span class="text-xs text-[#40826D] font-semibold">FAVORITE</span>
+                        <h3 class="font-semibold text-gray-800 mt-1">Silk Touch Conditioner</h3>
+                        <p class="text-[#40826D] font-bold mt-2">₹699</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-2xl flex gap-4 items-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfK4TLTZp0Ejsm9F45nEPBakc4K-ajxQ4j6KlmYdatj9Bw5PEK7XP5pCc7&s=10" alt="Customer Favorite" class="w-24 h-28 object-cover rounded-xl">
+                    <div>
+                        <span class="text-xs text-[#40826D] font-semibold">FAVORITE</span>
+                        <h3 class="font-semibold text-gray-800 mt-1">Moisture Lock Conditioner</h3>
+                        <p class="text-[#40826D] font-bold mt-2">₹729</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 8. NEW ARRIVALS -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex justify-between items-end mb-10">
+            <div>
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">JUST ARRIVED</p>
+                <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">New Arrivals</h2>
+            </div>
+            <a href="#" class="text-[#40826D] font-semibold text-sm">Explore All →</a>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div>
+                <div class="relative">
+                    <img src="https://images-static.nykaa.com/media/catalog/product/f/0/f05cabbNATHA00000538_s2.jpg?tr=w-500" alt="Aloe Conditioner" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">NEW</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Aloe Soft Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹649</span>
+                    <span class="text-yellow-500 text-sm">★ 4.8</span>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <img src="https://magicaljar.com/wp-content/uploads/2025/03/Magical-Jar-rice-water-conditioner1-1000x1000.webp" alt="Rice Water Conditioner" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">NEW</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Rice Water Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹729</span>
+                    <span class="text-yellow-500 text-sm">★ 4.9</span>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <img src="https://img0.junaroad.com/uiproducts/16625664/pri_175_p-1569508150.jpg" alt="Argan Conditioner" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">NEW</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Argan Silk Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹779</span>
+                    <span class="text-yellow-500 text-sm">★ 4.7</span>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <img src="https://escentials.com/cdn/shop/products/Escentials_AX14010000_2_1200x1200.jpg?v=1635928573" alt="Botanical Conditioner" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">NEW</span>
+                </div>
+                <h3 class="font-semibold text-gray-800 mt-4">Botanical Repair Conditioner</h3>
+                <div class="flex justify-between mt-2">
+                    <span class="font-bold text-[#40826D]">₹699</span>
+                    <span class="text-yellow-500 text-sm">★ 4.8</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>

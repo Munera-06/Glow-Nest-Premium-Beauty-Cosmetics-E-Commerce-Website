@@ -1,0 +1,822 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+
+<!-- Eyes Makeup Hero Banner -->
+<section class="bg-[#F8F3F5] py-16">
+	<div class="max-w-6xl mx-auto px-6">
+		<div class="grid md:grid-cols-2 gap-8 items-center">
+			<div>
+				<p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">
+					EYES MAKEUP
+				</p>
+				<h1 class="text-4xl md:text-5xl font-serif font-bold text-gray-800 mt-4 leading-tight">
+					Beautiful Eyes,
+					<span class="text-[#A65D68]">
+						Beautiful You
+					</span>
+				</h1>
+				<p class="text-gray-500 mt-5 leading-7 max-w-md">
+					Explore our collection of eyeshadows, eyeliners,
+					mascaras and kajals to create your perfect eye look.
+				</p>
+				<button class="mt-7 bg-[#40826D] text-white px-7 py-3 rounded-full hover:bg-[#326B58] transition">
+					Shop Eye Makeup
+				</button>
+			</div>
+			<div class="relative pt-16">
+				<img
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLr3YN0RMAxRXIQ0tQSVlw1-t-8OZZ0jceIGDDzjqHg&s=10"
+					alt="Eye Makeup"
+					class="w-full h-[450px] object-cover rounded-2xl">
+				<div class="absolute bottom-5 left-5 bg-white px-5 py-3 rounded-xl shadow-md">
+					<p class="text-sm text-gray-500">
+						Create Your Look
+					</p>
+					<p class="font-semibold text-[#40826D]">
+						Soft • Bold • Glam
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Shop by Category -->
+<section class="py-20 bg-white">
+	<div class="max-w-6xl mx-auto px-6">
+		<div class="mb-10">
+			<p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">
+				EXPLORE
+			</p>
+			<h2 class="text-4xl font-serif font-bold text-[#40826D] mt-2">
+				Shop by Category
+			</h2>
+			<p class="text-gray-500 mt-3 max-w-xl">
+				Find your everyday eye makeup essentials and create looks
+				that match your style.
+			</p>
+		</div>
+		<div class="grid md:grid-cols-2 gap-6">
+			<a href="#" class="relative h-[500px] rounded-2xl overflow-hidden group">
+				<img
+					src="https://images.unsplash.com/photo-1768983224486-b4dcd179b4a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGV5ZXNoYWRvdyUyMHBhbGV0dGV8ZW58MHx8MHx8fDA%3D"
+					alt="Eyeshadow"
+					class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+				<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+				<div class="absolute bottom-0 left-0 p-7 text-white">
+					<p class="text-sm uppercase tracking-widest">
+						Explore
+					</p>
+					<h3 class="text-3xl font-serif font-bold mt-2">
+						Eyeshadow
+					</h3>
+					<p class="text-white/80 mt-2">
+						From soft neutrals to bold colourful palettes.
+					</p>
+					<span class="inline-block mt-4 border border-white px-5 py-2 rounded-full text-sm">
+						Shop Now →
+					</span>
+				</div>
+			</a>
+			<div class="grid grid-cols-2 gap-6">
+				<a href="#" class="relative h-[237px] rounded-2xl overflow-hidden group">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf5hWj7VL1ZkHdOg-eSKmQtC4pTQlCdxjpAH11o30wCA&s=10"
+						alt="Eyeliner"
+						class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+					<div class="absolute inset-0 bg-black/25"></div>
+					<div class="absolute bottom-5 left-5 text-white">
+						<h3 class="text-xl font-semibold">
+							Eyeliner
+						</h3>
+						<p class="text-sm mt-1">
+							Define your eyes
+						</p>
+					</div>
+				</a>
+				<a href="#" class="relative h-[237px] rounded-2xl overflow-hidden group">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCgYfpMGwpCv7jho088c1nJg2TxliyYyaVv9Gpbd3PWw&s=10"
+						alt="Mascara"
+						class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+					<div class="absolute inset-0 bg-black/25"></div>
+					<div class="absolute bottom-5 left-5 text-white">
+						<h3 class="text-xl font-semibold">
+							Mascara
+						</h3>
+						<p class="text-sm mt-1">
+							Lift & lengthen
+						</p>
+					</div>
+				</a>
+				<a href="#" class="relative h-[237px] rounded-2xl overflow-hidden group">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA9Ub-V-J7VK8_dOujJCNHC19hhNPmuTyFsvIPgLHDGA&s=10"
+						alt="Kajal"
+						class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+					<div class="absolute inset-0 bg-black/25"></div>
+					<div class="absolute bottom-5 left-5 text-white">
+						<h3 class="text-xl font-semibold">
+							Kajal
+						</h3>
+						<p class="text-sm mt-1">
+							Bold & defined
+						</p>
+					</div>
+				</a>
+				<a href="#" class="relative h-[237px] rounded-2xl overflow-hidden group">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRENwJdrjGezq5k9w7lzdOXuBNvYf_RBGQBnW0mPoBjDg&s=10"
+						alt="Eye Primer"
+						class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+					<div class="absolute inset-0 bg-black/25"></div>
+					<div class="absolute bottom-5 left-5 text-white">
+						<h3 class="text-xl font-semibold">
+							Eye Primer
+						</h3>
+						<p class="text-sm mt-1">
+							Prep & perfect
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+  <!-- 3. EYESHADOW PALETTE COLLECTION 🎨 -->
+  <section class="py-20 bg-stone-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-[#40826D] font-semibold uppercase tracking-wider text-xs">Pigment Powerhouse</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-[#40826D] mt-1">Eyeshadow Palette Collection</h2>
+        </div>
+        <a href="#" class="mt-4 md:mt-0 text-sm font-bold text-[#40826D] hover:text-rose-700 flex items-center gap-1">
+          Explore All Palettes <i class="fa-solid fa-chevron-right text-xs"></i>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Palette 1 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1734077028880-ce01c36ddf29?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TnVkZSUyMFJhZGlhbmNlJTIwUGFsZXR0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="Nude Radiance" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-black/70 text-white text-xs font-semibold px-2.5 py-1 rounded-full backdrop-blur-sm">18 Shades</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <span class="text-yellow-300">
+					★★★★★
+				</span>
+                <span class="text-gray-500 font-medium ml-1">4.8 (340)</span>
+              </div>
+              <h3 class="text-lg font-bold text-gray-900 mt-2">Nude Radiance Palette</h3>
+              <p class="text-sm text-gray-500 mt-1">Velvety mattes & metallic foiled shimmers.</p>
+            </div>
+            <div class="mt-6 flex items-center justify-between pt-4 border-t border-gray-100">
+              <span class="text-xl font-extrabold text-[#40826D]">₹1,499</span>
+              <button class="px-5 py-2.5 bg-[#40826D] hover:bg-[#326B58] text-white text-sm font-semibold rounded-lg transition-colors">
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palette 2 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden">
+            <img src="https://www.lakmeindia.com/cdn/shop/files/29901_S3-8909106004672_1000x.jpg?v=1740996088" alt="Sunset Glam" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-black/70 text-white text-xs font-semibold px-2.5 py-1 rounded-full backdrop-blur-sm">12 Shades</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+				<span class="text-yellow-300">
+					★★★★★
+				</span>
+                <span class="text-gray-500 font-medium ml-1">4.9 (512)</span>
+              </div>
+              <h3 class="text-lg font-bold text-gray-900 mt-2">Sunset Glam Chromatics</h3>
+              <p class="text-sm text-gray-500 mt-1">Rich copper, warm bronze, and fiery hues.</p>
+            </div>
+            <div class="mt-6 flex items-center justify-between pt-4 border-t border-gray-100">
+              <span class="text-xl font-extrabold text-[#40826D]">₹1,850</span>
+              <button class="px-5 py-2.5  bg-[#40826D] hover:bg-[#326B58] text-white text-sm font-semibold rounded-lg transition-colors">
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Palette 3 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden">
+            <img src="https://m.media-amazon.com/images/I/81y4crxb8yL.jpg" alt="Midnight Smokey" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-black/70 text-white text-xs font-semibold px-2.5 py-1 rounded-full backdrop-blur-sm">9 Shades</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <span class="text-yellow-300">
+					★★★★★
+				</span>
+                <span class="text-gray-500 font-medium ml-1">4.7 (218)</span>
+              </div>
+              <h3 class="text-lg font-bold text-gray-900 mt-2">Midnight Smokey Luxe</h3>
+              <p class="text-sm text-gray-500 mt-1">Deep onyx, gunmetal glitz, and charcoal tones.</p>
+            </div>
+            <div class="mt-6 flex items-center justify-between pt-4 border-t border-gray-100">
+              <span class="text-xl font-extrabold text-[#40826D]">₹1,299</span>
+              <button class="px-5 py-2.5  bg-[#40826D] hover:bg-[#326B58] text-white text-sm font-semibold rounded-lg transition-colors">
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. EYE MAKEUP BEST SELLERS ⭐ -->
+  <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="text-[#40826D]  font-bold uppercase tracking-wider text-xs flex items-center justify-center gap-1">
+		Customer Favorites
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-[#40826D]  mt-1">Eye Makeup Best Sellers</h2>
+      <p class="mt-2 text-gray-600">The icons beauty lovers swear by daily</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      <!-- Best Seller 1 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <div>
+          <div class="h-36 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbokB3ABIDS9FqeB29IX8rIlen2W1Qe9UCUXEguwSJ-w&s=10" alt="Mascara" class="h-full object-cover">
+          </div>
+          <span class="text-[11px] font-semibold text-[#40826D]uppercase">Mascara</span>
+          <h4 class="text-sm font-bold text-gray-900 truncate">High Lash Lengthener</h4>
+          <span class="text-sm font-extrabold text-gray-900 mt-1 block">₹699</span>
+        </div>
+        <button class="w-full mt-3 py-1.5 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-bold transition">Add</button>
+      </div>
+
+      <!-- Best Seller 2 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <div>
+          <div class="h-36 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA9Ub-V-J7VK8_dOujJCNHC19hhNPmuTyFsvIPgLHDGA&s=10" alt="Kajal" class="h-full object-cover">
+          </div>
+          <span class="text-[11px] font-semibold text-[#40826D]  uppercase">Kajal</span>
+          <h4 class="text-sm font-bold text-gray-900 truncate">Waterproof Kohlist</h4>
+          <span class="text-sm font-extrabold text-gray-900 mt-1 block">₹399</span>
+        </div>
+        <button class="w-full mt-3 py-1.5 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-bold transition">Add</button>
+      </div>
+
+      <!-- Best Seller 3 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <div>
+          <div class="h-36 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-3">
+            <img src="https://images-static.nykaa.com/media/catalog/product/8/b/8b4aa66NYPAC00001392_4.jpg?tr=w-500" alt="Liquid Eyeliner" class="h-full object-cover">
+          </div>
+          <span class="text-[11px] font-semibold text-[#40826D]  uppercase">Liquid Eyeliner</span>
+          <h4 class="text-sm font-bold text-gray-900 truncate">Ultra-Precision Pen</h4>
+          <span class="text-sm font-extrabold text-gray-900 mt-1 block">₹549</span>
+        </div>
+        <button class="w-full mt-3 py-1.5 bg-[#40826D] hover:bg-[#326B58] text-white hover:text-white rounded-lg text-xs font-bold transition">Add</button>
+      </div>
+
+      <!-- Best Seller 4 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <div>
+          <div class="h-36 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSb0BEAYUA5WxYQv0ghLELcrDJLh6oYx1O8xXLDP2e3Q&s=10" alt="Eyeshadow Palette" class="h-full object-cover">
+          </div>
+          <span class="text-[11px] font-semibold text-[#40826D]  uppercase">Palette</span>
+          <h4 class="text-sm font-bold text-gray-900 truncate">Rose Romance Mini</h4>
+          <span class="text-sm font-extrabold text-gray-900 mt-1 block">₹899</span>
+        </div>
+        <button class="w-full mt-3 py-1.5 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-bold transition">Add</button>
+      </div>
+
+      <!-- Best Seller 5 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <div>
+          <div class="h-36 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBcrQYNebeGS6zCXCjN-ZNUpQZSPspUAhqcTgvjdrBzA&s=10" alt="Brow Pencil" class="h-full object-cover">
+          </div>
+          <span class="text-[11px] font-semibold text-[#40826D] uppercase">Brow Pencil</span>
+          <h4 class="text-sm font-bold text-gray-900 truncate">Micro Blade Definer</h4>
+          <span class="text-sm font-extrabold text-gray-900 mt-1 block">₹449</span>
+        </div>
+        <button class="w-full mt-3 py-1.5 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-bold transition">Add</button>
+      </div>
+
+      <!-- Best Seller 6 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+        <div>
+          <div class="h-36 rounded-xl bg-gray-50 flex items-center justify-center overflow-hidden mb-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2a4S9ZUnYH6wdUdg9fKC_cEoLTjSxd7fPISk-nRS0w&s" alt="Eye Primer" class="h-full object-cover">
+          </div>
+          <span class="text-[11px] font-semibold text-[#40826D] uppercase">Eye Primer</span>
+          <h4 class="text-sm font-bold text-gray-900 truncate">Creaseless Primer</h4>
+          <span class="text-sm font-extrabold text-gray-900 mt-1 block">₹599</span>
+        </div>
+        <button class="w-full mt-3 py-1.5 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-bold transition">Add</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. OFFERS & DEALS 🏷️ -->
+  <section id="offers" class="py-20 bg-[#F0F8F0]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between mb-10">
+        <div>
+          <span class="text-[#40826D] text-xs font-bold px-2.5 py-1 rounded-md uppercase">Limited Time</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-[#40826D] mt-2">Steal Deals & Flash Sales</h2>
+        </div>
+        <div class="text-right hidden sm:block">
+          <p class="text-xs text-[#40826D] font-bold tracking-widest uppercase">Hurry Up!</p>
+          <p class="text-sm text-gray-600">Stock updates in real-time</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Deal Card 1 -->
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-rose-100 flex flex-col justify-between relative overflow-hidden">
+          <span class="absolute top-4 right-4 bg-[#40826D] text-white text-[11px] font-black px-2.5 py-1 rounded-full tracking-wider">30% OFF</span>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHsVZZTwyL6GXbDHE7-xnhT_tMdTgagStkNd0R7stXuA&s=10" alt="Gel Eyeliner Pot" class="h-44 w-full object-contain rounded-xl mb-4">
+            <h4 class="font-bold text-gray-900">Gel Eyeliner Pot + Brush</h4>
+            <div class="flex items-baseline gap-2 mt-2">
+              <span class="text-2xl font-black text-[#40826D]">₹489</span>
+              <span class="text-sm text-gray-400 line-through">₹699</span>
+            </div>
+            <!-- Urgency Indicator -->
+            <div class="mt-3">
+              <div class="flex justify-between text-xs text-rose-700 font-bold mb-1">
+                <span>🔥 Only 3 left in stock</span>
+              </div>
+            </div>
+          </div>
+          <button class="mt-5 w-full py-2.5 bg-[#40826D] hover:bg-[#326B58] text-white font-semibold rounded-xl text-sm transition">Claim Offer</button>
+        </div>
+
+        <!-- Deal Card 2 -->
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-rose-100 flex flex-col justify-between relative overflow-hidden">
+          <span class="absolute top-4 right-4 bg-[#40826D] text-white text-[11px] font-black px-2.5 py-1 rounded-full tracking-wider">20% OFF</span>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFlVopwWDYNLmjNJVAF1aBvU7KfY1ziNoaQzTHnpagLVAulfxJOW-fvxMG&s=10" alt="Palette Duo" class="h-44 w-full object-contain rounded-xl mb-4">
+            <h4 class="font-bold text-gray-900">Duo Shimmer Pigments</h4>
+            <div class="flex items-baseline gap-2 mt-2">
+              <span class="text-2xl font-black text-[#40826D]">₹799</span>
+              <span class="text-sm text-gray-400 line-through">₹999</span>
+            </div>
+            <!-- Urgency Indicator -->
+            <div class="mt-3">
+              <div class="flex justify-between text-xs text-amber-700 font-bold mb-1">
+                <span>⚠️ Limited Stock</span>
+              </div>         
+            </div>
+          </div>
+          <button class="mt-5 w-full py-2.5 bg-[#40826D] hover:bg-[#326B58] text-white font-semibold rounded-xl text-sm transition">Claim Offer</button>
+        </div>
+
+        <!-- Deal Card 3 -->
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-rose-100 flex flex-col justify-between relative overflow-hidden">
+          <span class="absolute top-4 right-4 bg-[#40826D] text-white text-[11px] font-black px-2.5 py-1 rounded-full tracking-wider">40% OFF</span>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMyVLZBwalOXp3u4bUdgSzPCNpTa4g_uyN3uChYUYDA&s" alt="Lash Duo" class="h-44 w-full object-contain rounded-xl mb-4">
+            <h4 class="font-bold text-gray-900">Volumizing Fiber Mascara</h4>
+            <div class="flex items-baseline gap-2 mt-2">
+              <span class="text-2xl font-black text-[#40826D]">₹539</span>
+              <span class="text-sm text-gray-400 line-through">₹899</span>
+            </div>
+            <!-- Urgency Indicator -->
+            <div class="mt-3">
+              <div class="flex justify-between text-xs text-rose-700 font-bold mb-1">
+                <span>🔥 Only 5 left</span>
+              </div>
+            </div>
+          </div>
+          <button class="mt-5 w-full py-2.5 bg-[#40826D] hover:bg-[#326B58] text-white font-semibold rounded-xl text-sm transition">Claim Offer</button>
+        </div>
+
+        <!-- Deal Card 4 -->
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-rose-100 flex flex-col justify-between relative overflow-hidden">
+          <span class="absolute top-4 right-4 bg-[#40826D] text-white text-[11px] font-black px-2.5 py-1 rounded-full tracking-wider">25% OFF</span>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToWFR2SOsvDkIGbpBNSOf3ay5uedrRxs-8hUFGhqfcwg&s=10" alt="Sculpting Pomade" class="h-44 w-full object-contain rounded-xl mb-4">
+            <h4 class="font-bold text-gray-900">Tinted Brow Sculpt Gel</h4>
+            <div class="flex items-baseline gap-2 mt-2">
+              <span class="text-2xl font-black text-[#40826D]">₹374</span>
+              <span class="text-sm text-gray-400 line-through">₹499</span>
+            </div>
+            <!-- Urgency Indicator -->
+            <div class="mt-3">
+              <div class="flex justify-between text-xs text-amber-700 font-bold mb-1">
+                <span>⚡ Selling Fast</span>
+              </div>
+          </div>
+          <button class="mt-5 w-full py-2.5 bg-[#40826D] hover:bg-[#326B58] text-white font-semibold rounded-xl text-sm transition">Claim Offer</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 6. SHOP BY EYE LOOK 💕 -->
+  <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="text-[#40826D] font-semibold uppercase tracking-wider text-xs">Curated Aesthetics</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mt-1">Shop by Eye Look</h2>
+      <p class="mt-2 text-gray-600">Choose your mood, get the complete bundled look</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Look 1: Natural -->
+      <div class="group relative rounded-3xl overflow-hidden bg-stone-900 shadow-md">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRig_fMjdZKOHGn2iR39e8QPFBZwsf3nsKUjmJRZ2Y5kA&s=10" alt="Natural Look" class="w-full h-96 object-cover opacity-85 group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex flex-col justify-end p-6">
+          <span class="text-xs font-semibold text-rose-300 uppercase tracking-widest">Everyday Fresh</span>
+          <h3 class="text-2xl font-bold text-white mt-1">Natural Look</h3>
+          <p class="text-xs text-gray-300 mt-1">Includes: Sheer Wash + Clear Brow Gel + Brown Mascara</p>
+          <button class="mt-4 px-4 py-2.5 bg-white text-gray-900 text-xs font-bold rounded-xl hover:bg-[#40826D] hover:text-white transition">
+            Shop the Look (3 Items)
+          </button>
+        </div>
+      </div>
+
+      <!-- Look 2: Soft Glam -->
+      <div class="group relative rounded-3xl overflow-hidden bg-stone-900 shadow-md">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagJtbbWU6bFXnT8_MM2-HOEdE_KSw10_go8JZLg1W6Q&s=10" alt="Soft Glam" class="w-full h-96 object-cover opacity-85 group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex flex-col justify-end p-6">
+          <span class="text-xs font-semibold text-amber-300 uppercase tracking-widest">Cocktail & Brunch</span>
+          <h3 class="text-2xl font-bold text-white mt-1">Soft Glam</h3>
+          <p class="text-xs text-gray-300 mt-1">Includes: Rose Palette + Winged Liner + Lengthening Mascara</p>
+          <button class="mt-4 px-4 py-2.5 bg-white text-gray-900 text-xs font-bold rounded-xl hover:bg-[#40826D] hover:text-white transition">
+            Shop the Look (3 Items)
+          </button>
+        </div>
+      </div>
+
+      <!-- Look 3: Smokey -->
+      <div class="group relative rounded-3xl overflow-hidden bg-stone-900 shadow-md">
+        <img src="https://images.unsplash.com/photo-1716973004922-1f7d57fe265c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENsYXNzaWMlMjBTbW9rZXl8ZW58MHx8MHx8fDA%3D" alt="Smokey Eyes" class="w-full h-96 object-cover opacity-85 group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex flex-col justify-end p-6">
+          <span class="text-xs font-semibold text-rose-300 uppercase tracking-widest">Night Out Mystery</span>
+          <h3 class="text-2xl font-bold text-white mt-1">Classic Smokey</h3>
+          <p class="text-xs text-gray-300 mt-1">Includes: Charcoal Shadow + Dark Kohl + Smudger</p>
+          <button class="mt-4 px-4 py-2.5 bg-white text-gray-900 text-xs font-bold rounded-xl hover:bg-[#40826D] hover:text-white transition">
+            Shop the Look (3 Items)
+          </button>
+        </div>
+      </div>
+
+      <!-- Look 4: Bold Graphic -->
+      <div class="group relative rounded-3xl overflow-hidden bg-stone-900 shadow-md">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJ1F3TXpel-aTuRZvLhEjWjSLupq7L9w9jl1vZaciGA&s=10" alt="Bold Graphic" class="w-full h-96 object-cover opacity-85 group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex flex-col justify-end p-6">
+          <span class="text-xs font-semibold text-emerald-300 uppercase tracking-widest">Runway & Drama</span>
+          <h3 class="text-2xl font-bold text-white mt-1">Bold Graphic</h3>
+          <p class="text-xs text-gray-300 mt-1">Includes: Waterproof Ink Pen + Glitter Top Coat + Lash Booster</p>
+          <button class="mt-4 px-4 py-2.5 bg-white text-gray-900 text-xs font-bold rounded-xl hover:bg-[#40826D] hover:text-white transition">
+            Shop the Look (3 Items)
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CUSTOMER FAVORITES ❤️ -->
+  <section class="py-20 bg-stone-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-[#40826D] font-bold uppercase tracking-wider text-xs">Community Approved</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mt-1">Customer Favorites</h2>
+        <p class="mt-2 text-gray-600">Real reviews from our certified beauty enthusiasts</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Review Card 1 -->
+        <div class="bg-white p-7 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-amber-400 text-xs mb-3">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <span class="text-gray-400 ml-2 text-xs">Verified Buyer</span>
+            </div>
+            <p class="text-gray-700 italic text-sm leading-relaxed">
+              "This kajal stays put through humidity and workouts. Zero smudging and super black!"
+            </p>
+            <div class="mt-6 flex items-center gap-3">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Priya R." class="w-10 h-10 rounded-full object-cover">
+              <div>
+                <h5 class="text-xs font-bold text-gray-900">Priya R.</h5>
+                <span class="text-[11px] text-gray-400">Bought Intense Jet Kohl</span>
+              </div>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+            <span class="font-extrabold text-[#40826D]">₹399</span>
+            <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-semibold transition">
+               Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Review Card 2 -->
+        <div class="bg-white p-7 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-amber-400 text-xs mb-3">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <span class="text-gray-400 ml-2 text-xs">Verified Buyer</span>
+            </div>
+            <p class="text-gray-700 italic text-sm leading-relaxed">
+              "The shimmer shades in the palette blend like butter without any fallout. Worth every penny!"
+            </p>
+            <div class="mt-6 flex items-center gap-3">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Ananya S." class="w-10 h-10 rounded-full object-cover">
+              <div>
+                <h5 class="text-xs font-bold text-gray-900">Ananya S.</h5>
+                <span class="text-[11px] text-gray-400">Bought Nude Radiance Palette</span>
+              </div>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+            <span class="font-extrabold text-[#40826D]">₹1,499</span>
+            <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-semibold transition">
+				Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Review Card 3 -->
+        <div class="bg-white p-7 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-amber-400 text-xs mb-3">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <span class="text-gray-400 ml-2 text-xs">Verified Buyer</span>
+            </div>
+            <p class="text-gray-700 italic text-sm leading-relaxed">
+              "Gives fake lash volume with zero clumps. My new everyday holy grail mascara!"
+            </p>
+            <div class="mt-6 flex items-center gap-3">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Sneha M." class="w-10 h-10 rounded-full object-cover">
+              <div>
+                <h5 class="text-xs font-bold text-gray-900">Sneha M.</h5>
+                <span class="text-[11px] text-gray-400">Bought Sky High Mascara</span>
+              </div>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+            <span class="font-extrabold text-[#40826D]">₹699</span>
+            <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white rounded-lg text-xs font-semibold transition">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 8. NEW ARRIVALS ✨ -->
+  <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-12">
+      <div>
+        <span class="text-[#40826D] font-semibold uppercase tracking-wider text-xs">Just Dropped</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-[#40826D] mt-1">New Arrivals ✨</h2>
+      </div>
+      <a href="#" class="mt-3 sm:mt-0 text-sm font-bold text-[#40826D]">
+        View All Drops 
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Item 1 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-lg transition-all relative">
+        <span class="absolute top-6 left-6 z-10 bg-emerald-500 text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">NEW</span>
+        <div class="h-56 bg-stone-50 rounded-xl overflow-hidden mb-4 flex items-center justify-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-X-MN7GfG6NHUlKau6qBjRNIZYEDi_kQFnz5y4d5a5A&s=10" alt="Liquid Eyeshadow" class="h-full object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+        <h4 class="font-bold text-gray-900">Duochrome Liquid Shadow</h4>
+        <span class="text-xs text-gray-500">Multidimensional Foil Finish</span>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-lg font-black text-[#40826D]">₹749</span>
+          <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white text-xs font-bold rounded-lg transition">Shop Now</button>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-lg transition-all relative">
+        <span class="absolute top-6 left-6 z-10 bg-emerald-500 text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">NEW</span>
+        <div class="h-56 bg-stone-50 rounded-xl overflow-hidden mb-4 flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1619166634229-2754d64c67ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEVsZWN0cmljJTIwUGFzdGVsJTIwTGluZXIlMjBQZW4lMjBtYWtldXAlMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D" alt="Color Liner" class="h-full object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+        <h4 class="font-bold text-gray-900">Electric Pastel Liner Pen</h4>
+        <span class="text-xs text-gray-500">Matte Neon Finish</span>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-lg font-black text-[#40826D]">₹499</span>
+          <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white text-xs font-bold rounded-lg transition">Shop Now</button>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-lg transition-all relative">
+        <span class="absolute top-6 left-6 z-10 bg-emerald-500 text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">NEW</span>
+        <div class="h-56 bg-stone-50 rounded-xl overflow-hidden mb-4 flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1620159074234-ec313a604694?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RElZJTIwQnJvdyUyMExhbWluYXRpb24lMjAlMjYlMjBUaW50JTIwS2l0fGVufDB8fDB8fHww" alt="Brow Lamination Kit" class="h-full object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+        <h4 class="font-bold text-gray-900">DIY Brow Lamination & Tint Kit</h4>
+        <span class="text-xs text-gray-500">Salon Results at Home</span>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-lg font-black text-[#40826D]">₹1,199</span>
+          <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white text-xs font-bold rounded-lg transition">Shop Now</button>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-lg transition-all relative">
+        <span class="absolute top-6 left-6 z-10 bg-emerald-500 text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">NEW</span>
+        <div class="h-56 bg-stone-50 rounded-xl overflow-hidden mb-4 flex items-center justify-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Y7tCtfnNC6AfL35SCEiYyzf9DN69HrKoh_btgBbBDQ&s=10" alt="Glitter Topcoat" class="h-full object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+        <h4 class="font-bold text-gray-900">Diamond Sparkle Eye Glaze</h4>
+        <span class="text-xs text-gray-500">Non-Sticky Holographic</span>
+        <div class="mt-4 flex items-center justify-between">
+          <span class="text-lg font-black text-[#40826D]">₹620</span>
+          <button class="px-4 py-2 bg-[#40826D] hover:bg-[#326B58] text-white text-xs font-bold rounded-lg transition">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+	
+	
+<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>

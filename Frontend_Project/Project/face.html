@@ -1,0 +1,815 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+	
+<!-- Face Makeup Hero Banner -->
+<section class="bg-[#F8F3F1] py-14">
+  <div class="max-w-6xl pt-15 mx-auto px-6">
+    <div class="relative grid md:grid-cols-2 items-center bg-[#EDE3DE] rounded-3xl overflow-hidden">
+      <div class="px-8 pt-5 md:px-12 py-14">
+        <p class="text-[#40826D] uppercase tracking-[3px] text-sm font-semibold">
+          FACE MAKEUP
+        </p>
+        <h1 class="text-4xl md:text-5xl font-serif font-bold text-gray-800 leading-tight mt-4">
+          Your Perfect
+          <span class="block text-[#40826D]">Base Starts Here</span>
+        </h1>
+        <p class="text-gray-600 leading-7 mt-5 max-w-md">
+          Create a flawless makeup look with our collection of foundations, concealers, blushes, powders, and more.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-7">
+          <span class="bg-white px-4 py-2 rounded-full text-sm text-gray-600">Foundation</span>
+          <span class="bg-white px-4 py-2 rounded-full text-sm text-gray-600">Concealer</span>
+          <span class="bg-white px-4 py-2 rounded-full text-sm text-gray-600">Blush</span>
+          <span class="bg-white px-4 py-2 rounded-full text-sm text-gray-600">Highlighter</span>
+        </div>
+        <a href="#" class="inline-block mt-8 bg-[#5F8575] hover:bg-[#40826D] text-white px-8 py-3 rounded-full font-medium transition duration-300">
+          Shop Face Makeup
+        </a>
+      </div>
+      <div class="h-[500px]">
+        <img src="https://images.unsplash.com/photo-1608979087030-1a1ab4d262c1?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Face Makeup Collection" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Face Makeup Categories -->
+<section class="py-20 bg-[#F8F3F1]">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-[#40826D] uppercase tracking-[3px] text-sm font-semibold">EXPLORE</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-[#40826D] mt-3">Face Makeup Categories</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+        Find everything you need to create a smooth, defined, and glowing face makeup look.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
+      <a href="#" class="group text-center">
+        <div class="h-64 rounded-2xl overflow-hidden relative">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpacEDHJZBICztPlOXDtUyXo_7OIFgpEuqkqYLkWAREQ&s=10" alt="Foundation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition"></div>
+          <div class="absolute bottom-4 left-0 right-0">
+            <h3 class="text-white text-xl font-semibold">Foundation</h3>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-3">Flawless Base</p>
+      </a>
+
+      <a href="#" class="group text-center">
+        <div class="h-64 rounded-2xl overflow-hidden relative">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjROVYyYFmmqEmhjrHyiu4PvNZW8ALSRtaoyHcZDcBQ&s=10" alt="Concealer" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition"></div>
+          <div class="absolute bottom-4 left-0 right-0">
+            <h3 class="text-white text-xl font-semibold">Concealer</h3>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-3">Bright & Even</p>
+      </a>
+
+      <a href="#" class="group text-center">
+        <div class="h-64 rounded-2xl overflow-hidden relative">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXaYgvFl4yygy40MpV_0gcDrfAczKoYWe3thsdClNjQ&s" alt="Blush" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition"></div>
+          <div class="absolute bottom-4 left-0 right-0">
+            <h3 class="text-white text-xl font-semibold">Blush</h3>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-3">Fresh Flush</p>
+      </a>
+
+      <a href="#" class="group text-center">
+        <div class="h-64 rounded-2xl overflow-hidden relative">
+          <img src="https://plus.unsplash.com/premium_photo-1757682620953-69cdd499b753?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJvbnplcnxlbnwwfHwwfHx8MA%3D%3D" alt="Bronzer" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition"></div>
+          <div class="absolute bottom-4 left-0 right-0">
+            <h3 class="text-white text-xl font-semibold">Bronzer</h3>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-3">Warm & Define</p>
+      </a>
+
+      <a href="#" class="group text-center">
+        <div class="h-64 rounded-2xl overflow-hidden relative">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNpghyzzpeG27RSbY8Ld_HBJADvdOsx4kJiBvDvAttg&s" alt="Highlighter" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition"></div>
+          <div class="absolute bottom-4 left-0 right-0">
+            <h3 class="text-white text-xl font-semibold">Highlighter</h3>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-3">Natural Glow</p>
+      </a>
+
+      <a href="#" class="group text-center">
+        <div class="h-64 rounded-2xl overflow-hidden relative">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB2duVl3k_k3SWXWQ30mJNSt2qVQ7pd-n2H6NeNOH1sA&s=10" alt="Setting Powder" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition"></div>
+          <div class="absolute bottom-4 left-0 right-0">
+            <h3 class="text-white text-xl font-semibold">Setting Powder</h3>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-3">Set & Perfect</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Face Makeup Products -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-[#40826D] uppercase tracking-[3px] text-sm font-semibold">FACE MAKEUP</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-[#40826D] mt-3">Face Makeup Products</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+        Create a smooth, radiant makeup look with our everyday face essentials.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-8">
+      <div class="relative h-[560px] rounded-3xl overflow-hidden group">
+        <img src="https://plus.unsplash.com/premium_photo-1664300271874-a948f09c09ae?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfDB8fHx8fA%3D%3D" alt="Liquid Foundation" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 p-8 text-white">
+          <span class="bg-white/90 text-[#40826D] px-4 py-2 rounded-full text-sm font-semibold">Featured</span>
+          <h3 class="text-3xl font-serif font-bold mt-4">Liquid Foundation</h3>
+          <p class="mt-2 text-white/85 max-w-md">Buildable coverage with a smooth finish for a naturally flawless base.</p>
+          <div class="flex items-center gap-3 mt-4">
+            <span class="text-yellow-300">★★★★★</span>
+            <span>4.9</span>
+            <span class="font-semibold">₹899</span>
+          </div>
+          <button class="mt-5 bg-white text-[#40826D] px-7 py-3 rounded-full font-semibold hover:bg-[#A65D68] hover:text-white transition">Shop Now</button>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+          <div class="h-56 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1732989682855-2e1dad59d709?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENyZWFtJTIwQ29uY2VhbGVyfGVufDB8fDB8fHww" alt="Cream Concealer" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-5">
+            <h3 class="text-xl font-semibold text-gray-800">Cream Concealer</h3>
+            <p class="text-gray-500 text-sm mt-2">Blends smoothly to brighten and even out the skin.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="font-bold text-[#40826D]">₹599</span>
+              <span class="text-yellow-500 text-sm">★ 4.8</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+          <div class="h-56 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1737016146845-00e38bbb6296?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U2lsa3klMjBGYWNlJTIwUG93ZGVyfGVufDB8fDB8fHww" alt="Silky Face Powder" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-5">
+            <h3 class="text-xl font-semibold text-gray-800">Silky Face Powder</h3>
+            <p class="text-gray-500 text-sm mt-2">Sets makeup with a soft, lightweight matte finish.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="font-bold text-[#40826D]">₹499</span>
+              <span class="text-yellow-500 text-sm">★ 4.7</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+          <div class="h-56 overflow-hidden">
+            <img src="https://thekoebeauty.com/cdn/shop/files/Peach_Fuzz.jpg?v=1764842844&width=4000" alt="Peach Blush" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-5">
+            <h3 class="text-xl font-semibold text-gray-800">Peach Blush</h3>
+            <p class="text-gray-500 text-sm mt-2">Adds a soft peachy flush for a fresh, healthy glow.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="font-bold text-[#40826D]">₹549</span>
+              <span class="text-yellow-500 text-sm">★ 4.9</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+          <div class="h-56 overflow-hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3Rhvc6HkpnY53b33HcIycu1ctCixPiNy3nkWVzhZwQ&s=10" alt="Glow Highlighter" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          </div>
+          <div class="p-5">
+            <h3 class="text-xl font-semibold text-gray-800">Glow Highlighter</h3>
+            <p class="text-gray-500 text-sm mt-2">Gives cheekbones a natural-looking luminous finish.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="font-bold text-[#40826D]">₹649</span>
+              <span class="text-yellow-500 text-sm">★ 4.8</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 bg-[#F1E5E1] rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <p class="text-[#40826D] font-semibold">COMPLETE YOUR LOOK</p>
+        <h3 class="text-2xl font-serif font-bold text-gray-600 mt-1">Cream Bronzer</h3>
+        <p class="text-gray-500 mt-2">Add warmth and definition with an easy-to-blend creamy formula.</p>
+      </div>
+      <div class="flex items-center gap-6">
+        <span class="text-xl font-bold text-[#40826D]">₹699</span>
+        <button class="bg-[#40826D] hover:bg-[#8F4C58] text-white px-7 py-3 rounded-full transition">Shop Now</button>
+      </div>
+    </div>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+        <div class="h-64 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPs4WEcsnq2XV6ni6DHOepN4W8CIJEOCisRt3wlT84R0lQLUA1Hqr3dDw&s=10" alt="Liquid Blush" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800">Liquid Blush</h3>
+          <p class="text-gray-500 text-sm mt-2">A lightweight blush that blends easily for a fresh natural flush.</p>
+          <div class="flex justify-between items-center mt-4">
+            <span class="font-bold text-[#40826D]">₹579</span>
+            <span class="text-yellow-500 text-sm">★ 4.8</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+        <div class="h-64 overflow-hidden">
+          <img src="https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/383169/1437853/71yEDTAxvjL__33024.1766829310.jpg?c=1&imbypass=on" alt="Contour Stick" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800">Contour Stick</h3>
+          <p class="text-gray-500 text-sm mt-2">Creamy contour formula that adds natural definition to the face.</p>
+          <div class="flex justify-between items-center mt-4">
+            <span class="font-bold text-[#40826D]">₹629</span>
+            <span class="text-yellow-500 text-sm">★ 4.7</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+        <div class="h-64 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1677328034796-108d0716ea3c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fElsbHVtaW5hdGluZyUyMFByaW1lcnxlbnwwfHwwfHx8MA%3D%3D" alt="Illuminating Primer" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800">Illuminating Primer</h3>
+          <p class="text-gray-500 text-sm mt-2">Creates a smooth base while adding a subtle radiant finish.</p>
+          <div class="flex justify-between items-center mt-4">
+            <span class="font-bold text-[#40826D]">₹699</span>
+            <span class="text-yellow-500 text-sm">★ 4.9</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+        <div class="h-64 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1706067501076-b747fe8978aa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFrZXVwJTIwRml4aW5nJTIwU3ByYXl8ZW58MHx8MHx8fDA%3D" alt="Makeup Fixing Spray" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800">Makeup Fixing Spray</h3>
+          <p class="text-gray-500 text-sm mt-2">Helps keep your makeup fresh and comfortable throughout the day.</p>
+          <div class="flex justify-between items-center mt-4">
+            <span class="font-bold text-[#40826D]">₹599</span>
+            <span class="text-yellow-500 text-sm">★ 4.8</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+        <div class="h-64 overflow-hidden">
+          <img src="https://plus.unsplash.com/premium_photo-1676914336000-f8b2f9edd56a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3VzaGlvbiUyMEZvdW5kYXRpb258ZW58MHx8MHx8fDA%3D" alt="Cushion Foundation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800">Cushion Foundation</h3>
+          <p class="text-gray-500 text-sm mt-2">Lightweight cushion coverage for a smooth and natural-looking base.</p>
+          <div class="flex justify-between items-center mt-4">
+            <span class="font-bold text-[#40826D]">₹799</span>
+            <span class="text-yellow-500 text-sm">★ 4.9</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#F8F3F1] rounded-3xl overflow-hidden group">
+        <div class="h-64 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSku0Y4ErPjw-J0iodhquYBki85YFYa1Qxp5KjvVQfuhw&s=10" alt="Color Corrector" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-800">Color Corrector</h3>
+          <p class="text-gray-500 text-sm mt-2">Helps balance uneven tones and creates an even-looking makeup base.</p>
+          <div class="flex justify-between items-center mt-4">
+            <span class="font-bold text-[#40826D]">₹449</span>
+            <span class="text-yellow-500 text-sm">★ 4.7</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Face Makeup Best Sellers -->
+<section class="py-20 bg-[#fdfaf8]">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-[#40826D] uppercase tracking-[3px] text-sm font-semibold mb-3">FACE MAKEUP</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-[#40826D] mt-3">Best Sellers</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+        Discover our most-loved face makeup essentials for a flawless, radiant and naturally beautiful finish.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group">
+        <div class="relative h-[380px] overflow-hidden bg-[#f5f1ed]">
+          <span class="absolute top-4 left-4 z-10 bg-[#40826D] text-white text-xs font-semibold px-4 py-2 rounded-full">BEST SELLER</span>
+          <img src="https://images.meesho.com/images/products/977329941/q7amy_512.webp?width=512" alt="Foundation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6">
+          <p class="text-xs uppercase tracking-widest text-[#40826D] mb-2">Foundation</p>
+          <h3 class="text-lg font-semibold text-gray-900">Hydrating Glow Foundation</h3>
+          <p class="text-sm text-gray-500 mt-2">Lightweight foundation with a smooth, natural finish.</p>
+          <div class="flex items-center gap-2 mt-4"><span class="text-yellow-500">★★★★★</span><span class="text-sm text-gray-500">(4.8)</span></div>
+          <div class="flex items-center justify-between mt-5">
+            <span class="text-xl font-semibold text-gray-900">₹899</span>
+            <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full text-sm hover:bg-[#326b58] transition">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group">
+        <div class="relative h-[380px] overflow-hidden bg-[#f5f1ed]">
+          <span class="absolute top-4 left-4 z-10 bg-[#40826D] text-white text-xs font-semibold px-4 py-2 rounded-full">BEST SELLER</span>
+          <img src="https://images.unsplash.com/photo-1677551558938-b22b8c980b70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RnVsbCUyMENvdmVyJTIwUmFkaWFuY2UlMjBDb25jZWFsZXJ8ZW58MHx8MHx8fDA%3D" alt="Concealer" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6">
+          <p class="text-xs uppercase tracking-widest text-[#40826D] mb-2">Concealer</p>
+          <h3 class="text-lg font-semibold text-gray-900">Full Cover Radiance Concealer</h3>
+          <p class="text-sm text-gray-500 mt-2">Buildable coverage that brightens and smooths the complexion.</p>
+          <div class="flex items-center gap-2 mt-4"><span class="text-yellow-500">★★★★★</span><span class="text-sm text-gray-500">(4.9)</span></div>
+          <div class="flex items-center justify-between mt-5">
+            <span class="text-xl font-semibold text-gray-900">₹699</span>
+            <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full text-sm hover:bg-[#326b58] transition">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group">
+        <div class="relative h-[380px] overflow-hidden bg-[#f5f1ed]">
+          <span class="absolute top-4 left-4 z-10 bg-[#40826D] text-white text-xs font-semibold px-4 py-2 rounded-full">BEST SELLER</span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjnPI70EzuPTwHjsYAWcqri1nabbu82gfkhYpC3mT8LA&s=10" alt="Blush" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6">
+          <p class="text-xs uppercase tracking-widest text-[#40826D] mb-2">Blush</p>
+          <h3 class="text-lg font-semibold text-gray-900">Soft Rose Cream Blush</h3>
+          <p class="text-sm text-gray-500 mt-2">A silky cream blush for a fresh and naturally flushed look.</p>
+          <div class="flex items-center gap-2 mt-4"><span class="text-yellow-500">★★★★★</span><span class="text-sm text-gray-500">(4.7)</span></div>
+          <div class="flex items-center justify-between mt-5">
+            <span class="text-xl font-semibold text-gray-900">₹799</span>
+            <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full text-sm hover:bg-[#326b58] transition">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group">
+        <div class="relative h-[380px] overflow-hidden bg-[#f5f1ed]">
+          <span class="absolute top-4 left-4 z-10 bg-[#40826D] text-white text-xs font-semibold px-4 py-2 rounded-full">BEST SELLER</span>
+          <img src="https://images-static.nykaa.com/media/catalog/product/a/4/a406b47IBAHA00000080_6.jpg?tr=w-500" alt="Face Compact" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6">
+          <p class="text-xs uppercase tracking-widest text-[#40826D] mb-2">Compact</p>
+          <h3 class="text-lg font-semibold text-gray-900">Velvet Matte Compact</h3>
+          <p class="text-sm text-gray-500 mt-2">Lightweight pressed powder for a smooth matte finish.</p>
+          <div class="flex items-center gap-2 mt-4"><span class="text-yellow-500">★★★★★</span><span class="text-sm text-gray-500">(4.6)</span></div>
+          <div class="flex items-center justify-between mt-5">
+            <span class="text-xl font-semibold text-gray-900">₹549</span>
+            <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full text-sm hover:bg-[#326b58] transition">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group">
+        <div class="relative h-[380px] overflow-hidden bg-[#f5f1ed]">
+          <span class="absolute top-4 left-4 z-10 bg-[#40826D] text-white text-xs font-semibold px-4 py-2 rounded-full">BEST SELLER</span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMBq9lQamES6g0RccFO-FqfkwzcsURfkpm6939OMFA6w&s=10" alt="Highlighter" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6">
+          <p class="text-xs uppercase tracking-widest text-[#40826D] mb-2">Highlighter</p>
+          <h3 class="text-lg font-semibold text-gray-900">Golden Glow Highlighter</h3>
+          <p class="text-sm text-gray-500 mt-2">A luminous highlighter that adds a soft radiant glow.</p>
+          <div class="flex items-center gap-2 mt-4"><span class="text-yellow-500">★★★★★</span><span class="text-sm text-gray-500">(4.8)</span></div>
+          <div class="flex items-center justify-between mt-5">
+            <span class="text-xl font-semibold text-gray-900">₹649</span>
+            <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full text-sm hover:bg-[#326b58] transition">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group">
+        <div class="relative h-[380px] overflow-hidden bg-[#f5f1ed]">
+          <span class="absolute top-4 left-4 z-10 bg-[#40826D] text-white text-xs font-semibold px-4 py-2 rounded-full">BEST SELLER</span>
+          <img src="https://www.oliviabeauty.in/cdn/shop/files/2_1.jpg?v=1739781259" alt="Setting Spray" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-6">
+          <p class="text-xs uppercase tracking-widest text-[#40826D] mb-2">Setting Spray</p>
+          <h3 class="text-lg font-semibold text-gray-900">Longwear Makeup Fixer</h3>
+          <p class="text-sm text-gray-500 mt-2">Helps lock makeup in place while keeping skin fresh.</p>
+          <div class="flex items-center gap-2 mt-4"><span class="text-yellow-500">★★★★★</span><span class="text-sm text-gray-500">(4.9)</span></div>
+          <div class="flex items-center justify-between mt-5">
+            <span class="text-xl font-semibold text-gray-900">₹599</span>
+            <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full text-sm hover:bg-[#326b58] transition">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-12">
+      <button class="border border-[#40826D] text-[#40826D] px-8 py-3 rounded-full font-medium hover:bg-[#40826D] hover:text-white transition duration-300">
+        View All Best Sellers
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Makeup Tips -->
+<section class="py-20 bg-[#F8F3F1]">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">BEAUTY GUIDE</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-[#40826D] mt-3">Makeup Tips</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+        Simple tips to help you create a smooth and beautiful face makeup look.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtTbSdVj8B6CJ1KpGE82G6ZtwXKbhflDD3pMM6-e0jgGcRC7ouNok5Rg&s=10" alt="Choosing Foundation Shade" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <span class="text-[#40826D] font-semibold text-sm">TIP 01</span>
+          <h3 class="text-2xl font-semibold text-gray-800 mt-2">Choose the Right Foundation</h3>
+          <p class="text-gray-500 leading-6 mt-3">
+            Always choose a foundation shade that blends naturally with your skin tone for an even-looking base.
+          </p>
+          <a href="#" class="inline-block mt-5 text-[#40826D] font-semibold hover:underline">Read Tip →</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR17wRckLIa8GTaq_W9pwmeYQDnKYr-AbNlG9PWDkH8tg&s=10" alt="Applying Concealer" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <span class="text-[#40826D] font-semibold text-sm">TIP 02</span>
+          <h3 class="text-2xl font-semibold text-gray-800 mt-2">Blend Your Concealer</h3>
+          <p class="text-gray-500 leading-6 mt-3">
+            Apply a small amount of concealer and blend it gently to cover areas without making the makeup look heavy.
+          </p>
+          <a href="#" class="inline-block mt-5 text-[#40826D] font-semibold hover:underline">Read Tip →</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ThhNG8B1rwpN4Mkhm9N74tkklmK5JaMOxBEdMw4x8Q&s=10" alt="Applying Blush" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <span class="text-[#40826D] font-semibold text-sm">TIP 03</span>
+          <h3 class="text-2xl font-semibold text-gray-800 mt-2">Add Blush Naturally</h3>
+          <p class="text-gray-500 leading-6 mt-3">
+            Apply blush lightly on the cheeks and blend it well to create a soft, fresh-looking glow.
+          </p>
+          <a href="#" class="inline-block mt-5 text-[#40826D] font-semibold hover:underline">Read Tip →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 bg-white rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-5">
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800">Keep Your Makeup Fresh</h3>
+        <p class="text-gray-500 mt-2">
+          Finish your look with a light setting spray to help your makeup stay fresh for longer.
+        </p>
+      </div>
+      <a href="#" class="bg-[#40826D] text-white px-7 py-3 rounded-full hover:bg-[#326B58] transition duration-300">Explore More Tips</a>
+    </div>
+  </div>
+</section>
+
+<!-- Blush & Glow Bar -->
+<section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-10">
+      <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">ADD A LITTLE COLOR</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-[#40826D] mt-3">Blush & Glow Bar</h2>
+      <p class="text-gray-500 mt-4 max-w-xl mx-auto">
+        Find your perfect blush shade and add a soft, natural glow to your look.
+      </p>
+    </div>
+
+    <div class="bg-[#F8F3F1] rounded-3xl p-6 md:p-10">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div class="h-[420px] rounded-2xl overflow-hidden">
+          <img src="https://luxebykan.com/cdn/shop/collections/image_4_e5e2049f-37b3-4d57-b4f2-a1bc50cad063.webp?v=1784284849" alt="Blush and Glow" class="w-full h-full object-cover">
+        </div>
+
+        <div>
+          <h3 class="text-3xl font-serif font-bold text-gray-800">Find Your Blush Shade</h3>
+          <p class="text-gray-500 mt-3 leading-7">
+            From soft peach to rich berry, choose a shade that matches your mood and creates a natural-looking flush.
+          </p>
+
+          <div class="mt-8">
+            <p class="font-semibold text-gray-700 mb-4">Choose a shade</p>
+            <div class="flex flex-wrap gap-5">
+              <div class="text-center">
+                <div class="w-12 h-12 rounded-full bg-[#F4A582] border-4 border-white shadow-md mx-auto"></div>
+                <p class="text-sm text-gray-600 mt-2">Peach</p>
+              </div>
+              <div class="text-center">
+                <div class="w-12 h-12 rounded-full bg-[#E98A9A] border-4 border-white shadow-md mx-auto"></div>
+                <p class="text-sm text-gray-600 mt-2">Pink</p>
+              </div>
+              <div class="text-center">
+                <div class="w-12 h-12 rounded-full bg-[#C96F7B] border-4 border-white shadow-md mx-auto"></div>
+                <p class="text-sm text-gray-600 mt-2">Rose</p>
+              </div>
+              <div class="text-center">
+                <div class="w-12 h-12 rounded-full bg-[#E8785D] border-4 border-white shadow-md mx-auto"></div>
+                <p class="text-sm text-gray-600 mt-2">Coral</p>
+              </div>
+              <div class="text-center">
+                <div class="w-12 h-12 rounded-full bg-[#9B4F65] border-4 border-white shadow-md mx-auto"></div>
+                <p class="text-sm text-gray-600 mt-2">Berry</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 border-t border-gray-200 pt-6">
+            <div class="flex justify-between items-center">
+              <div>
+                <h4 class="text-xl font-semibold text-gray-800">Soft Glow Blush</h4>
+                <p class="text-gray-500 text-sm mt-1">Buildable color with a smooth finish</p>
+              </div>
+              <span class="text-lg font-bold text-[#40826D]">₹549</span>
+            </div>
+            <button class="mt-5 bg-[#40826D] hover:bg-[#326B58] text-white px-7 py-3 rounded-full transition duration-300">Shop Blush</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+      <div class="text-center p-5 bg-[#FFF4F1] rounded-2xl">
+        <span class="text-2xl">🌸</span>
+        <p class="font-semibold text-gray-700 mt-2">Soft & Fresh</p>
+      </div>
+      <div class="text-center p-5 bg-[#FDF0F3] rounded-2xl">
+        <span class="text-2xl">✨</span>
+        <p class="font-semibold text-gray-700 mt-2">Natural Glow</p>
+      </div>
+      <div class="text-center p-5 bg-[#FFF3EC] rounded-2xl">
+        <span class="text-2xl">🍑</span>
+        <p class="font-semibold text-gray-700 mt-2">Warm Tones</p>
+      </div>
+      <div class="text-center p-5 bg-[#F8EEF1] rounded-2xl">
+        <span class="text-2xl">💗</span>
+        <p class="font-semibold text-gray-700 mt-2">Rosy Finish</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Customer Favorites -->
+<section class="py-20 bg-[#F8F3F1]">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="text-[#40826D] text-sm font-semibold uppercase tracking-widest">LOVED BY YOU</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-[#40826D] mt-3">Customer Favorites</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+        Discover the face makeup products our customers keep coming back for.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl p-5">
+        <div class="h-64 rounded-xl overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-NU4Aovm2DrQ6mmCR3oYzq7mLyMwF_4kiwEq_52B3f6eiNgGDQe9rH13&s=10" alt="Natural Glow Blush" class="w-full h-full object-cover">
+        </div>
+        <div class="pt-5">
+          <div class="flex justify-between items-center">
+            <h3 class="text-xl font-semibold text-gray-800">Natural Glow Blush</h3>
+            <span class="text-[#40826D] font-bold">₹549</span>
+          </div>
+          <div class="text-yellow-500 mt-2">★★★★★ <span class="text-gray-400 text-sm ml-1">4.9</span></div>
+          <p class="text-gray-500 text-sm leading-6 mt-3">
+            A soft and buildable blush that gives the cheeks a fresh, natural-looking color.
+          </p>
+          <div class="border-t border-gray-100 mt-5 pt-4">
+            <p class="text-gray-600 text-sm italic">“The shade looks so natural and blends beautifully.”</p>
+            <p class="text-[#40826D] text-sm font-semibold mt-2">— Priya</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-5">
+        <div class="h-64 rounded-xl overflow-hidden">
+          <img src="https://www.herlan.com/wp-content/uploads/2024/11/07-Foundation.webp" alt="Soft Matte Foundation" class="w-full h-full object-cover">
+        </div>
+        <div class="pt-5">
+          <div class="flex justify-between items-center">
+            <h3 class="text-xl font-semibold text-gray-800">Soft Matte Foundation</h3>
+            <span class="text-[#40826D] font-bold">₹799</span>
+          </div>
+          <div class="text-yellow-500 mt-2">★★★★★ <span class="text-gray-400 text-sm ml-1">4.8</span></div>
+          <p class="text-gray-500 text-sm leading-6 mt-3">
+            Lightweight coverage that creates a smooth base without feeling heavy on the skin.
+          </p>
+          <div class="border-t border-gray-100 mt-5 pt-4">
+            <p class="text-gray-600 text-sm italic">“It gives me a clean base and stays comfortable all day.”</p>
+            <p class="text-[#40826D] text-sm font-semibold mt-2">— Ananya</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-5">
+        <div class="h-64 rounded-xl overflow-hidden">
+          <img src="https://www.goldenrose.com.pk/cdn/shop/articles/Radiant_Highlighter_Makeup_Guide.jpg?v=1773383309" alt="Radiant Highlighter" class="w-full h-full object-cover">
+        </div>
+        <div class="pt-5">
+          <div class="flex justify-between items-center">
+            <h3 class="text-xl font-semibold text-gray-800">Radiant Highlighter</h3>
+            <span class="text-[#40826D] font-bold">₹649</span>
+          </div>
+          <div class="text-yellow-500 mt-2">★★★★★ <span class="text-gray-400 text-sm ml-1">4.9</span></div>
+          <p class="text-gray-500 text-sm leading-6 mt-3">
+            A finely milled highlighter that adds a soft, luminous glow to the high points of the face.
+          </p>
+          <div class="border-t border-gray-100 mt-5 pt-4">
+            <p class="text-gray-600 text-sm italic">“Perfect for a subtle glow. I use it almost every day.”</p>
+            <p class="text-[#40826D] text-sm font-semibold mt-2">— Meera</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 text-center bg-white rounded-2xl py-7 px-6">
+      <div class="text-yellow-500 text-xl">★★★★★</div>
+      <p class="text-gray-600 mt-3">“Beautiful shades, easy to blend and perfect for everyday makeup.”</p>
+      <p class="text-[#40826D] font-semibold mt-2">— Happy Customer</p>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>

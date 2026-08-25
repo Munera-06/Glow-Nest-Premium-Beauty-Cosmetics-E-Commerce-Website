@@ -1,0 +1,828 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+	
+<!-- Hero Banner -->
+	<section class="relative h-screen">
+		<img src="https://www.mariagalland.com/cdn/shop/collections/maria-galland-paris-cat-cleansers.jpg?v=1780855090"
+			alt="Cleanser Hero Banner"
+			class="absolute inset-0 w-full h-full object-cover">
+		<div class="absolute inset-0 bg-black/35"></div>
+		<div class="relative z-10 flex items-center h-full">
+			<div class="max-w-7xl mx-auto px-6">
+				<div class="max-w-2xl">
+					<p class="my-20 uppercase tracking-[8px] text-white text-sm mb-4">
+						Glos Beauty
+					</p>
+					<h1 class="text-3xl md:text-5xl font-serif font-bold text-white leading-tight">
+						Cleanse.<br>
+						Refresh.<br>
+						Glow.
+					</h1>
+					<p class="text-white/90 text-lg mt-6 leading-8">
+						Discover our luxurious cleanser collection designed to
+						gently remove impurities while keeping your skin soft,
+						hydrated, and naturally radiant.
+					</p>
+					<div class="flex gap-5 mt-10">
+						<a href="#collection"
+							class="bg-[#5F8575] hover:bg-[#40826D] text-white px-8 py-4 rounded-full transition duration-300">
+							Shop Collection
+						</a>
+						<a href="#bestseller"
+							class="border border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-full transition duration-300">
+							Best Sellers
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Shop by Skin Type -->
+	<section class="py-20 bg-[#F8F5F2]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#5F8575]">
+					Shop by Skin Type
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Find the perfect skincare routine tailored to your unique skin type.
+				</p>
+			</div>
+			
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+				<div class="bg-white rounded-3xl shadow-md hover:shadow-2xl transition duration-500 overflow-hidden group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FOY5EsCK_V0aAUGwjk4JAySmeU3U_pmm-QFlDADbXA&s=10"
+						alt="Oily Skin"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Oily Skin
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Control excess oil while keeping your skin fresh and balanced.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				
+				<div class="bg-white rounded-3xl shadow-md hover:shadow-2xl transition duration-500 overflow-hidden group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8nhdj2-kgsu8VTzu9MxgXTAa2qAGha_QwYfHH7Q4XQ&s=10"
+						alt="Dry Skin"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Dry Skin
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Deep hydration to nourish and soften dry, flaky skin.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				
+				<div class="bg-white rounded-3xl shadow-md hover:shadow-2xl transition duration-500 overflow-hidden group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQQBeOz751XQk4qbMHAx_bISk7kOLT0_LQjDvfLEz9CA&s=10"
+						alt="Combination Skin"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Combination Skin
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Balance oily and dry areas with gentle daily care.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				
+				<div class="bg-white rounded-3xl shadow-md hover:shadow-2xl transition duration-500 overflow-hidden group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZzLYs_Nkn0ak8Eb7LE-ke4Hs4rmlCmXJqQlaya3EmA&s=10"
+						alt="Sensitive Skin"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Sensitive Skin
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Gentle formulas designed to soothe and protect delicate skin.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- New Arrivals -->
+	<section class="py-20 bg-[#F0F8F0]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					New Arrivals
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Discover our latest cleansers, crafted to refresh, nourish, and reveal your skin's natural glow.
+				</p>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
+						NEW
+					</span>
+					<img src="https://images.unsplash.com/photo-1630398777700-afb6d24a502d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QWxvZSUyMFJlZnJlc2glMjBDbGVhbnNlcnxlbnwwfHwwfHx8MA%3D%3D"
+						alt="Aloe Refresh Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Aloe Refresh Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							A soothing cleanser enriched with pure aloe vera.
+						</p>
+						<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
+						NEW
+					</span>
+					<img src="https://images.unsplash.com/photo-1604454992305-615e66265dc6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fFZpdGFtaW4lMjBDJTIwR2xvdyUyMENsZWFuc2VyfGVufDB8fDB8fHww"
+						alt="Vitamin C Glow Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Vitamin C Glow Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Brightens skin while gently removing impurities.
+						</p>
+						<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
+						NEW
+					</span>
+					<img src="https://images.unsplash.com/photo-1705155726520-e8338338e6cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hhcmNvYWwlMjBEZXRveCUyMENsZWFuc2VyfGVufDB8fDB8fHww"
+						alt="Charcoal Detox Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Charcoal Detox Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Deeply cleanses pores for a fresh, healthy complexion.
+						</p>
+						<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Cleansers Collection -->
+	<section class="py-20 bg-[#F8F5F2]" id="cleansers">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Cleansers Collection
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Refresh your skin with our gentle cleansers, designed to remove impurities while keeping your skin soft and hydrated.
+				</p>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://images.unsplash.com/photo-1748639320154-6ba118bccc74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2VsJTIwY2xlYW5zZXJzfGVufDB8fDB8fHww"
+						alt="Gel Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Gel Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Lightweight formula that deeply cleanses and refreshes your skin.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://assets.myntassets.com/w_412,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/SEPTEMBER/12/cPxKAsXZ_9b2c94d172bb4d00992eca69bdc45d62.jpg"
+						alt="Foaming Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Foaming Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Rich foam that removes excess oil and daily impurities.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://plus.unsplash.com/premium_photo-1679106767239-95b814bf9795?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNyZWFtJTIwY2xlYW5zZXJzfGVufDB8fDB8fHww"
+						alt="Cream Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Cream Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Nourishes dry skin while gently cleansing every day.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://images.unsplash.com/photo-1623676708392-9f00ccfbc844?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHlkcmF0aW5nJTIwY2xlYW5zZXJzfGVufDB8fDB8fHww"
+						alt="Hydrating Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Hydrating Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Keeps your skin moisturized while removing dirt and makeup.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://mumuso.co.in/cdn/shop/files/WhatsApp_Image_2025-12-03_at_18.24.35.jpg?v=1764832893"
+						alt="Charcoal Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Charcoal Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Detoxifies pores and removes excess oil for a fresh look.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCZERtLWiOBEsmubdhjF57zlFhDwggiO8CeadELvkqw&s=10"
+						alt="Vitamin C Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Vitamin C Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Brightens dull skin and leaves it fresh and radiant.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Best Sellers -->
+	<section class="py-20 bg-[#F0F8F0]" id="best-sellers">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Best Sellers
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Discover our most-loved skincare essentials, trusted by customers for healthy, glowing skin.
+				</p>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full z-10">
+						Best Seller
+					</span>
+					<img src="https://images.unsplash.com/photo-1716043426139-3573390e8477?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGh5ZHJhdGluZyUyMGNsZWFuc2Vyc3xlbnwwfHwwfHx8MA%3D%3D"
+						alt="Hydrating Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold">Hydrating Cleanser</h3>
+						<p class="text-gray-500 mt-3">
+							Deeply cleanses while keeping your skin soft and hydrated.
+						</p>
+						<div class="flex justify-center items-center mt-4">
+							<div class="flex text-yellow-400 text-xl">
+								★ ★ ★ ★ ⯪
+							</div>
+							<span class="ml-2 text-gray-500 text-sm">
+								4.9 (1,250 Reviews)
+							</span>
+						</div>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Shop Now
+						</a>
+					</div>
+				</div>
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full z-10">
+						Best Seller
+					</span>
+					<img src="https://plus.unsplash.com/premium_photo-1661697575241-8e096a098ea6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dml0YW1pbiUyMGMlMjBjbGVhbnNlcnN8ZW58MHx8MHx8fDA%3D"
+						alt="Vitamin C Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold">Vitamin C Cleanser</h3>
+						<p class="text-gray-500 mt-3">
+							Brightens dull skin and refreshes your complexion.
+						</p>
+						<div class="flex justify-center items-center mt-4">
+							<div class="flex text-yellow-400 text-xl">
+								★ ★ ★ ★ ⯪
+							</div>
+							<span class="ml-2 text-gray-500 text-sm">
+								4.8 (2,356 Reviews)
+							</span>
+						</div>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Shop Now
+						</a>
+					</div>
+				</div>
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full z-10">
+						Best Seller
+					</span>
+					<img src="https://images.unsplash.com/photo-1704305861425-8683b791e638?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGNoYXJjb2FsJTIwY2xlYW5zZXJzfGVufDB8fDB8fHww"
+						alt="Charcoal Cleanser"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold">Charcoal Cleanser</h3>
+						<p class="text-gray-500 mt-3">
+							Removes excess oil and deeply purifies your pores.
+						</p>
+						<div class="flex justify-center items-center mt-4">
+							<div class="flex text-yellow-400 text-xl">
+								★ ★ ★ ★ ⯪
+							</div>
+							<span class="ml-2 text-gray-500 text-sm">
+								4.9 (7,950 Reviews)
+							</span>
+						</div>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Shop Now
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Why Choose Our Cleansers -->
+	<section class="py-20 bg-[#F8F5F2]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Why Choose Our Cleansers
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Gentle formulas designed to keep your skin healthy, fresh, and naturally glowing.
+				</p>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+				<div class="bg-white rounded-3xl shadow-md p-8 text-center hover:shadow-2xl transition duration-500">
+					<div class="text-6xl mb-5">🌿</div>
+					<h3 class="text-2xl font-semibold text-gray-800">Natural Ingredients</h3>
+					<p class="text-gray-500 mt-3">
+						Enriched with skin-loving botanical extracts.
+					</p>
+				</div>
+				<div class="bg-white rounded-3xl shadow-md p-8 text-center hover:shadow-2xl transition duration-500">
+					<div class="text-6xl mb-5">💧</div>
+					<h3 class="text-2xl font-semibold text-gray-800">Deep Hydration</h3>
+					<p class="text-gray-500 mt-3">
+						Cleanses while maintaining your skin's moisture.
+					</p>
+				</div>
+				<div class="bg-white rounded-3xl shadow-md p-8 text-center hover:shadow-2xl transition duration-500">
+					<div class="text-6xl mb-5">✨</div>
+					<h3 class="text-2xl font-semibold text-gray-800">Dermatologist Tested</h3>
+					<p class="text-gray-500 mt-3">
+						Safe and suitable for everyday skincare.
+					</p>
+				</div>
+				<div class="bg-white rounded-3xl shadow-md p-8 text-center hover:shadow-2xl transition duration-500">
+					<div class="text-6xl mb-5">🌎</div>
+					<h3 class="text-2xl font-semibold text-gray-800">Cruelty Free</h3>
+					<p class="text-gray-500 mt-3">
+						Beauty that's kind to your skin and animals.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Shop by Ingredients -->
+	<section class="py-20 bg-[#F0F8F0]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Shop by Ingredients
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Discover cleansers enriched with powerful ingredients for every skin concern.
+				</p>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAC-vGX1yggxrkNx-v6mFrxVx0F8C2BqpL0Q4kumugLw&s=10"
+						alt="Aloe Vera"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Aloe Vera
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Soothes and hydrates the skin for a fresh, healthy glow.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ZBJ5E1D_thwteXhYXJB6NTWjz5AW4hox2tB33GgJsg&s=10"
+						alt="Vitamin C"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Vitamin C
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Brightens dull skin and improves overall radiance.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE2AbwcoRlT4p48Ea7EEkoofzpH056NVVAI49GCPiFBA&s=10"
+						alt="Green Tea"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Green Tea
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Rich in antioxidants to calm and protect your skin.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNb4834u_jMsrN5DBbaSApczTiWM6B39JpqaC3YLm8Hw&s=10"
+						alt="Charcoal"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Charcoal
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Deeply cleans pores and removes excess oil effectively.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjdvvxNjsL6jBjCV8IpMvrxUePUhs04nic63fAflThBA&s=10"
+						alt="Hyaluronic Acid"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Hyaluronic Acid
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Locks in moisture for soft, smooth, and hydrated skin.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVhZ2eyAz_f0TcgfCXJd8HCNyz-pCbhO8bBn4mcceTw&s=10"
+						alt="Niacinamide"
+						class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Niacinamide
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Helps improve skin texture and minimizes the appearance of pores.
+						</p>
+						<a href="#"
+							class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Limited Edition Collection -->
+	<section class="py-20 bg-[#F8F5F2]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Limited Edition Collection
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Exclusive cleansers crafted in limited quantities for a truly luxurious skincare experience.
+				</p>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-[#40826D] text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
+						LIMITED
+					</span>
+					<img src="https://mantraherbal.in/cdn/shop/files/SoftGlowKit.jpg?v=1777541188&width=1000"
+						alt="Rose Glow Cleanser"
+						class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Rose Glow Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Infused with rose extracts for soft, radiant skin.
+						</p>
+						<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-[#40826D] text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
+						LIMITED
+					</span>
+					<img src="https://elizabethgrant.com/cdn/shop/products/royale-imperial-honey-cleanser-elizabeth-grant-skin-care-829201019235-404060.jpg?v=1680022848&width=1500"
+						alt="Golden Honey Cleanser"
+						class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Golden Honey Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Nourishes and refreshes with pure honey extracts.
+						</p>
+						<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+				<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+					<span class="absolute top-4 left-4 bg-[#40826D] text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
+						LIMITED
+					</span>
+					<img src="https://www.bio-valley.com/cdn/shop/files/2_e78f0999-9c5f-4f4f-9a12-79f3d3dedd73.jpg?v=1751879763&width=1445"
+						alt="Lavender Calm Cleanser"
+						class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+					<div class="p-6 text-center">
+						<h3 class="text-2xl font-semibold text-gray-800">
+							Lavender Calm Cleanser
+						</h3>
+						<p class="text-gray-500 mt-3">
+							Calms sensitive skin with soothing lavender essence.
+						</p>
+						<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+							Explore
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center mt-14">
+				<h3 class="text-3xl font-semibold text-[#40826D]">
+					Available for a Limited Time Only
+				</h3>
+				<p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+					Don't miss these exclusive cleanser collections. Once they're gone, they won't be restocked.
+				</p>
+				<a href="#"
+				   class="inline-block mt-8 bg-[#40826D] hover:bg-[#2F5D50] text-white px-8 py-4 rounded-full transition duration-300">
+					Shop Limited Edition
+				</a>
+			</div>
+		</div>
+	</section>
+	
+	<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>
+			
+			
+		
+
+		

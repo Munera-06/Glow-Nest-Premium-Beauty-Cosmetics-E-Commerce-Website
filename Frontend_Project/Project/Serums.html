@@ -1,0 +1,974 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+<!-- Hero Banner -->
+<section class="relative h-screen bg-cover bg-center flex items-center"
+	style="background-image:url('https://shikobeauty.com/cdn/shop/articles/Blog_Hero_Banner_Textures_1400px_5c102c61-6b29-4fd9-aceb-b314435e4232.jpg?v=1773090232');">
+
+	<div class="absolute inset-0 bg-black/30"></div>
+
+	<div class="relative max-w-7xl mx-auto px-6 w-full">
+		<div class="max-w-2xl pt-28">
+			<span class="inline-block bg-white/20 backdrop-blur-sm text-white px-5 py-2 rounded-full text-sm tracking-widest uppercase">
+				Premium Skincare
+			</span>
+
+			<h1 class="mt-6 text-5xl md:text-7xl font-serif font-bold text-white leading-tight">
+				Reveal Your <br>
+				Natural Radiance
+			</h1>
+
+			<p class="mt-6 text-lg md:text-xl text-gray-200 leading-8">
+				Experience lightweight serums enriched with powerful ingredients
+				to brighten, hydrate, and transform your skin every day.
+			</p>
+
+			<div class="mt-10 flex flex-wrap gap-5">
+				<a href="#" class="bg-[#5F8575] hover:bg-[#40826D] text-white px-8 py-4 rounded-full transition duration-300 font-medium">
+					Shop Serums
+				</a>
+
+				<a href="#" class="border-2 border-white text-white hover:bg-white hover:text-[#40826D] px-8 py-4 rounded-full transition duration-300 font-medium">
+					Explore Collection
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Shop by Skin Concern -->
+<section class="py-20 bg-[#F8F5F2]">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="text-center mb-14">
+			<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+				Shop by Skin Concern
+			</h2>
+
+			<p class="text-gray-500 mt-4 text-lg">
+				Find the perfect serum formulated to target your unique skin concerns.
+			</p>
+		</div>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGo3Xe2iTZtg2vjJceF99mNZ2N_krSpl84WB_ndO2aQ&s=10"
+					alt="Brightening"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Brightening</h3>
+
+					<p class="text-gray-500 mt-3">
+						Boost radiance and restore your skin's natural glow.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://hersay.in/cdn/shop/files/HyaluronicAcidSerum.jpg?v=1713336263"
+					alt="Hydration"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Hydration</h3>
+
+					<p class="text-gray-500 mt-3">
+						Deeply hydrate and replenish dry, thirsty skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://inskin.in/cdn/shop/files/7_50ml.jpg?v=1779698368"
+					alt="Acne Care"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Acne Care</h3>
+
+					<p class="text-gray-500 mt-3">
+						Help reduce breakouts and promote clearer skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://www.sesacare.com/cdn/shop/files/Darkspot-Serum.jpg?v=1783669142&width=1946"
+					alt="Dark Spots"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Dark Spots</h3>
+
+					<p class="text-gray-500 mt-3">
+						Fade pigmentation and achieve an even skin tone.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://sg.9skin.in/cdn/shop/files/Eternelle-1.jpg?v=1695919627"
+					alt="Anti-Aging"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Anti-Aging</h3>
+
+					<p class="text-gray-500 mt-3">
+						Smooth fine lines and improve skin firmness.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGLYUAhzvmKsRfLOlDBveWg978-EgqSddJfJU9NYaBg&s=10"
+					alt="Sensitive Skin"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Sensitive Skin</h3>
+
+					<p class="text-gray-500 mt-3">
+						Gentle formulas to calm, comfort, and protect delicate skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Serum Collection -->
+<section class="py-20 bg-[#F0F8F0]">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="text-center mb-14">
+			<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+				Serum Collection
+			</h2>
+
+			<p class="text-gray-500 mt-4 text-lg">
+				Explore our premium collection of targeted serums for healthier, radiant skin.
+			</p>
+		</div>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://images.unsplash.com/photo-1640625696922-1fd63c0b97c9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					alt="Vitamin C Serum"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Vitamin C Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Brightens skin and restores natural radiance.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://images.unsplash.com/photo-1642162225900-8d4e658252c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SHlhbHVyb25pYyUyMEFjaWQlMjBTZXJ1bXxlbnwwfHwwfHx8MA%3D%3D"
+					alt="Hyaluronic Acid Serum"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Hyaluronic Acid Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Delivers intense hydration for soft, smooth skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://images.unsplash.com/photo-1775255487971-af15499994b1?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					alt="Niacinamide Serum"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Niacinamide Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Reduces pores and improves skin texture.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://www.thenaturalwash.com/cdn/shop/files/retinol.jpg?v=1776161948&width=1946"
+					alt="Retinol Serum"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Retinol Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Smooths fine lines and promotes youthful skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://riveladermascience.com/cdn/shop/files/Salicylicacid_720x.jpg?v=1716456651"
+					alt="Salicylic Acid Serum"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Salicylic Acid Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Helps reduce acne and unclog pores.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://www.evolvebeauty.com/cdn/shop/files/evolve-organic-beauty-face-serum-peptide-360-face-serum-1153174304.jpg?v=1768023069&width=1500"
+					alt="Peptide Serum"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Peptide Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Improves firmness and supports healthy-looking skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Explore
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Best Sellers -->
+<section class="py-20 bg-[#F8F5F2]">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="text-center mb-14">
+			<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+				Best Sellers
+			</h2>
+
+			<p class="text-gray-500 mt-4 text-lg">
+				Our customers' favorite serums for glowing, healthy-looking skin.
+			</p>
+		</div>
+
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-[#40826D] text-white px-3 py-1 rounded-full text-xs font-semibold">
+					BEST SELLER
+				</span>
+
+				<img src="https://deyga.in/cdn/shop/files/Concept_585aa5e8-aa9c-48c3-b599-2165f32aab731.webp"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500"
+					alt="Vitamin C Serum">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Vitamin C Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Brightens dull skin with antioxidant-rich Vitamin C.
+					</p>
+
+					<div class="flex justify-center items-center mt-4">
+						<div class="text-yellow-400">★★★★★</div>
+
+						<span class="ml-2 text-gray-500 text-sm">
+							4.9 (2,145 Reviews)
+						</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-[#40826D] text-white px-3 py-1 rounded-full text-xs font-semibold">
+					BEST SELLER
+				</span>
+
+				<img src="https://moxiebeauty.in/cdn/shop/files/moxie-hyaluronic-acid-hair-serum.webp?v=1779775564"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500"
+					alt="Hyaluronic Acid Serum">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Hyaluronic Acid Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Deeply hydrates and locks in moisture for soft, smooth, and plump skin.
+					</p>
+
+					<div class="flex justify-center items-center mt-4">
+						<div class="text-yellow-400">★★★★★</div>
+
+						<span class="ml-2 text-gray-500 text-sm">
+							4.9 (5,675 Reviews)
+						</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-[#40826D] text-white px-3 py-1 rounded-full text-xs font-semibold">
+					BEST SELLER
+				</span>
+
+				<img src="https://images.unsplash.com/photo-1690896060855-d346f80e86b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TmlhY2luYW1pZGUlMjBTZXJ1bXxlbnwwfHwwfHx8MA%3D%3D"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500"
+					alt="Niacinamide Serum">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Niacinamide Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Minimizes pores and controls excess oil for a clear, even-toned complexion.
+					</p>
+
+					<div class="flex justify-center items-center mt-4">
+						<div class="text-yellow-400">★ ★ ★ ★ ⯪</div>
+
+						<span class="ml-2 text-gray-500 text-sm">
+							4.7 (3,090 Reviews)
+						</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Shop by Ingredients -->
+<section class="py-20 bg-[#F0F8F0]">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="text-center mb-14">
+			<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+				Shop by Ingredients
+			</h2>
+
+			<p class="text-gray-500 mt-4 text-lg">
+				Discover powerful serum ingredients carefully selected to target your unique skincare needs.
+			</p>
+		</div>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ZBJ5E1D_thwteXhYXJB6NTWjz5AW4hox2tB33GgJsg&s=10"
+					alt="Vitamin C"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Vitamin C</h3>
+
+					<p class="text-gray-500 mt-3">
+						Brightens skin, fades dark spots, and boosts natural radiance.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjdvvxNjsL6jBjCV8IpMvrxUePUhs04nic63fAflThBA&s=10"
+					alt="Hyaluronic Acid"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Hyaluronic Acid</h3>
+
+					<p class="text-gray-500 mt-3">
+						Provides long-lasting hydration and keeps skin plump.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVhZ2eyAz_f0TcgfCXJd8HCNyz-pCbhO8bBn4mcceTw&s=10"
+					alt="Niacinamide"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Niacinamide</h3>
+
+					<p class="text-gray-500 mt-3">
+						Minimizes pores, balances oil, and improves skin texture.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://plus.unsplash.com/premium_photo-1706800175527-cfb4ef0a8685?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmV0aW5vbCUyMHNlcnVtfGVufDB8fDB8fHww"
+					alt="Retinol"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Retinol</h3>
+
+					<p class="text-gray-500 mt-3">
+						Smooths fine lines and promotes firmer, youthful-looking skin.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://plus.unsplash.com/premium_photo-1715107534361-000358185acf?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					alt="Salicylic Acid"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Salicylic Acid</h3>
+
+					<p class="text-gray-500 mt-3">
+						Clears pores, controls oil, and helps prevent breakouts.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<img src="https://plus.unsplash.com/premium_photo-1733306459429-072d73ef6e93?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					alt="Peptides"
+					class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Peptides</h3>
+
+					<p class="text-gray-500 mt-3">
+						Strengthens the skin barrier and improves elasticity.
+					</p>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition">
+						Explore
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Offers & Deals -->
+<section class="py-20 bg-[#F8F5F2]">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="text-center mb-14">
+			<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+				Offers & Deals
+			</h2>
+
+			<p class="text-gray-500 mt-4 text-lg">
+				Grab your favorite serums at exclusive prices for a limited time.
+			</p>
+		</div>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+					30% OFF
+				</span>
+
+				<img src="https://www.mypure.co.uk/cdn/shop/files/resveratrol-niacinamide-serum-686603.jpg?v=1726776052&width=860"
+					alt="Resveratrol Serum"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Resveratrol Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Helps maintain firm, healthy-looking skin.
+					</p>
+
+					<div class="mt-4">
+						<span class="text-gray-400 line-through text-lg">₹999</span>
+						<span class="text-3xl font-bold text-[#40826D] ml-3">₹699</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-7 py-3 rounded-full transition">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+					25% OFF
+				</span>
+
+				<img src="https://mapetitecoree.com/cdn/shop/files/TELSE-WHite-Tea-Tree-Arc-Plus-Serum-30ml-Ma-Petite-Coree.jpg?v=1747478179"
+					alt="Tea Tree Clarifying Serum"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Tea Tree Clarifying Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Locks in moisture for hydrated, plump skin.
+					</p>
+
+					<div class="mt-4">
+						<span class="text-gray-400 line-through text-lg">₹1,099</span>
+						<span class="text-3xl font-bold text-[#40826D] ml-3">₹824</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-7 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+					35% OFF
+				</span>
+
+				<img src="https://sincereskincare.com/wp-content/uploads/2025/10/675-pirkti-SKIN1004-Madagascar-Centella-Probio-Cica-Intensive-Ampoule-kaina-1.webp"
+					alt="Centella Repair Serum"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Centella Repair Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Smooth, repair, and strengthen sensitive skin.
+					</p>
+
+					<div class="mt-4">
+						<span class="text-gray-400 line-through text-lg">₹899</span>
+						<span class="text-3xl font-bold text-[#40826D] ml-3">₹584</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-7 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+					20% OFF
+				</span>
+
+				<img src="https://www.beautylabinternational.com/wp-content/uploads/2021/04/BeautyLab%C2%AE-Retinol-Serum-Lifestyle.jpg"
+					alt="Retinol Serum"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Retinol Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Reduces fine lines and improves skin firmness.
+					</p>
+
+					<div class="mt-4">
+						<span class="text-gray-400 line-through text-lg">₹1,199</span>
+						<span class="text-3xl font-bold text-[#40826D] ml-3">₹959</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-7 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+					40% OFF
+				</span>
+
+				<img src="https://thedeconstruct.in/cdn/shop/files/Oil_Control_Serum_with_3__Niacinamide_2__Salicylic_Acid_With_Liposomal_Technology.webp?v=1782482394"
+					alt="Salicylic Acid Serum"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Salicylic Acid Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Controls excess oil and clears acne-prone skin.
+					</p>
+
+					<div class="mt-4">
+						<span class="text-gray-400 line-through text-lg">₹999</span>
+						<span class="text-3xl font-bold text-[#40826D] ml-3">₹599</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-7 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+			<div class="relative bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+				<span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+					30% OFF
+				</span>
+
+				<img src="https://skino2.com.au/cdn/shop/files/CS24GS-24K-Gold-Peptide-Serum-lifestyle-04_2000x2000.jpg?v=1721780221"
+					alt="Peptide Serum"
+					class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold">Peptide Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Strengthens the skin barrier and improves elasticity.
+					</p>
+
+					<div class="mt-4">
+						<span class="text-gray-400 line-through text-lg">₹1,299</span>
+						<span class="text-3xl font-bold text-[#40826D] ml-3">₹909</span>
+					</div>
+
+					<a href="#" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-7 py-3 rounded-full">
+						Shop Now
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- How to Apply Serum -->
+<section class="py-20 bg-[#F0F8F0]">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="text-center mb-14">
+			<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+				How to Apply Serum
+			</h2>
+
+			<p class="text-gray-500 mt-4 text-lg">
+				Follow these simple steps to get the best results from your serum.
+			</p>
+		</div>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+			<div class="bg-white rounded-3xl shadow-md overflow-hidden hover:shadow-2xl transition duration-500 group">
+				<div class="relative">
+					<img src="https://images-static.nykaa.com/contentmedia/scms-assets/uploads/2024/10/double-cleansing-banner.jpg"
+						alt="Cleanse"
+						class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+
+					<span class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center rounded-full bg-[#40826D] text-white font-bold">
+						1
+					</span>
+				</div>
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Cleanse</h3>
+
+					<p class="text-gray-500 mt-3">
+						Wash your face with a gentle cleanser.
+					</p>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl shadow-md overflow-hidden hover:shadow-2xl transition duration-500 group">
+				<div class="relative">
+					<img src="https://storage.googleapis.com/dawaadost.appspot.com/main_images/Lucid_Origin_a_highdefinition_realistic_image_of_a_person_with_0_755018cd-2e3c-4a61-9295-d5c206e09b79_resize.webp"
+						alt="Tone"
+						class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+
+					<span class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center rounded-full bg-[#40826D] text-white font-bold">
+						2
+					</span>
+				</div>
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Apply Toner</h3>
+
+					<p class="text-gray-500 mt-3">
+						Prep your skin with a refreshing toner.
+					</p>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl shadow-md overflow-hidden hover:shadow-2xl transition duration-500 group">
+				<div class="relative">
+					<img src="https://www.thepinkfoundry.com/cdn/shop/articles/Serum-or-Moisturizer-First-Know-What-to-Apply-First-in-Your-Skincare-Routine_1.webp?v=1744717031&width=2048"
+						alt="Apply Serum"
+						class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+
+					<span class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center rounded-full bg-[#40826D] text-white font-bold">
+						3
+					</span>
+				</div>
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Apply Serum</h3>
+
+					<p class="text-gray-500 mt-3">
+						Gently pat 2–3 drops onto your skin.
+					</p>
+				</div>
+			</div>
+
+			<div class="bg-white rounded-3xl shadow-md overflow-hidden hover:shadow-2xl transition duration-500 group">
+				<div class="relative">
+					<img src="https://images.hindustantimes.com/img/2022/09/29/1000x563/istockphoto-1218975827-612x612_1664452226274_1664452237662.jpg"
+						alt="Moisturize"
+						class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+
+					<span class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center rounded-full bg-[#40826D] text-white font-bold">
+						4
+					</span>
+				</div>
+
+				<div class="p-6 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800">Moisturize</h3>
+
+					<p class="text-gray-500 mt-3">
+						Lock in hydration with your moisturizer.
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>
+			
+			
+		
+
+		

@@ -1,0 +1,603 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+<!-- 1. HERO BANNER -->
+<section class="bg-[#F3F7F4] py-16">
+    <div class="max-w-6xl pt-18 mx-auto px-6">
+        <div class="relative overflow-hidden rounded-3xl min-h-[480px] flex items-center">
+            <img
+                src="https://myhinine.com/cdn/shop/collections/Hair_Care_Web_c3c4d1c1-3e2f-4f36-a9cd-9acde654933f.jpg?v=1693906658&width=3840"
+                alt="Hair Oil Collection"
+                class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/35"></div>
+            <div class="relative z-10 text-white max-w-xl p-8 md:p-14">
+                <p class="text-sm font-semibold uppercase tracking-[3px]">
+                    HAIR OIL COLLECTION
+                </p>
+                <h1 class="text-4xl md:text-6xl font-serif font-bold mt-4 leading-tight">
+                    Nourish From
+                    <span class="text-[#C1E1C1]">Root to Tip</span>
+                </h1>
+                <p class="mt-5 text-white/90 leading-7">
+                    Discover nourishing hair oils designed to care for
+                    your scalp, strengthen your strands and bring back
+                    natural-looking shine.
+                </p>
+                <button class="mt-7 bg-white text-[#40826D] px-7 py-3 rounded-full font-semibold hover:bg-[#40826D] hover:text-white transition">
+                    Shop Hair Oils
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2. SHOP BY HAIR CONCERN -->
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                FIND YOUR HAIR CARE
+            </p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-3">
+                Shop by Hair Concern
+            </h2>
+            <p class="text-gray-500 mt-4 max-w-xl mx-auto">
+                Choose an oil based on what your hair needs most.
+            </p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
+            <div class="relative h-48 rounded-2xl overflow-hidden group">
+                <img src="https://purebypriyanka.com/cdn/shop/files/Sampoorna_Hair_oil.webp?v=1785169678" alt="Hair Fall Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-black/25"></div>
+                <div class="absolute inset-0 flex items-end p-5">
+                    <div class="text-white">
+                        <h3 class="text-xl font-semibold">Hair Fall Care</h3>
+                        <p class="text-sm mt-1 text-white/80">Strength & nourishment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative h-48 rounded-2xl overflow-hidden group">
+                <img src="https://www.valeda.in/cdn/shop/files/Untitled_design_12.png?v=1733217824&width=1946" alt="Dry Hair Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-black/25"></div>
+                <div class="absolute inset-0 flex items-end p-5">
+                    <div class="text-white">
+                        <h3 class="text-xl font-semibold">Dry & Rough Hair</h3>
+                        <p class="text-sm mt-1 text-white/80">Deep moisture</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative h-48 rounded-2xl overflow-hidden group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlaUJAL9moWQoCOy0Tc_tzI7Ro4dSHCtEzDK3w-8PAbQ&s=10" alt="Scalp Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-black/25"></div>
+                <div class="absolute inset-0 flex items-end p-5">
+                    <div class="text-white">
+                        <h3 class="text-xl font-semibold">Scalp Care</h3>
+                        <p class="text-sm mt-1 text-white/80">Fresh & balanced</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative h-48 rounded-2xl overflow-hidden group">
+                <img src="https://assets.myntassets.com/w_412,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/AUGUST/29/kyp8gBwA_9ad949234c1c4ca8a07b22e40df4926c.jpg" alt="Frizz Control" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-black/25"></div>
+                <div class="absolute inset-0 flex items-end p-5">
+                    <div class="text-white">
+                        <h3 class="text-xl font-semibold">Frizz Control</h3>
+                        <p class="text-sm mt-1 text-white/80">Smooth & soft</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative h-48 rounded-2xl overflow-hidden group">
+                <img src="https://vedix.com/cdn/shop/files/Shvedan_Oil_Hero.jpg?v=1777872174&width=400" alt="Dull Hair" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-black/25"></div>
+                <div class="absolute inset-0 flex items-end p-5">
+                    <div class="text-white">
+                        <h3 class="text-xl font-semibold">Dull Hair</h3>
+                        <p class="text-sm mt-1 text-white/80">Shine & softness</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative h-48 rounded-2xl overflow-hidden group">
+                <img src="https://assets.myntassets.com/w_200,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/MARCH/27/HvrWCM65_a16b71f273544c9cb3195fc20708c5c3.jpg" alt="Split Ends Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="absolute inset-0 bg-black/25"></div>
+                <div class="absolute inset-0 flex items-end p-5">
+                    <div class="text-white">
+                        <h3 class="text-xl font-semibold">Split End Care</h3>
+                        <p class="text-sm mt-1 text-white/80">Smooth-looking ends</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 3. PICK YOUR HAIR OIL -->
+<section class="py-20 bg-[#F8F3F1]">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="mb-12">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                OIL MATCH
+            </p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">
+                Pick Your Hair Oil
+            </h2>
+            <p class="text-gray-500 mt-3 max-w-xl">
+                From lightweight oils to rich nourishing blends,
+                find your everyday hair care companion.
+            </p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-3xl p-5">
+                <div class="relative">
+                    <img src="https://nh-website-media.s3.ap-south-1.amazonaws.com/_nat/images/01_cbef0e8aa9.jpg" alt="Coconut Hair Oil" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">DAILY CARE</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mt-5">Pure Coconut Hair Oil</h3>
+                <p class="text-gray-500 text-sm mt-2">A nourishing classic for soft and healthy-looking hair.</p>
+                <div class="flex items-center justify-between mt-5">
+                    <span class="text-xl font-bold text-[#40826D]">₹499</span>
+                    <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl p-5">
+                <div class="relative">
+                    <img src="https://cdn01.pharmeasy.in/dam/products_otc/H03291/alglaze-rosemary-hair-oil-reduces-hair-fall-rosemary-hibiscus-avocado-oil-100ml-6.01-1779975280.jpg" alt="Rosemary Hair Oil" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">SCALP CARE</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mt-5">Rosemary Scalp Oil</h3>
+                <p class="text-gray-500 text-sm mt-2">A lightweight blend made for a refreshing scalp routine.</p>
+                <div class="flex items-center justify-between mt-5">
+                    <span class="text-xl font-bold text-[#40826D]">₹699</span>
+                    <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl p-5">
+                <div class="relative">
+                    <img src="https://yardlie.com/cdn/shop/files/002_87380647-1039-40ff-a6a9-d57118d6a046.jpg?v=1778921972&width=1200" alt="Argan Hair Oil" class="w-full h-64 object-cover rounded-2xl">
+                    <span class="absolute top-3 left-3 bg-[#40826D] text-white text-xs px-3 py-1 rounded-full">SHINE CARE</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mt-5">Argan Shine Oil</h3>
+                <p class="text-gray-500 text-sm mt-2">Helps leave hair feeling smooth with a glossy finish.</p>
+                <div class="flex items-center justify-between mt-5">
+                    <span class="text-xl font-bold text-[#40826D]">₹749</span>
+                    <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl p-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjv-K0B3tjfnOVRb4Ey5OPrhDIvQrsrVEQ2XGevVH9X6Pdlx3Bpgd6Bdm&s=10" alt="Amla Hair Oil" class="w-full h-64 object-cover rounded-2xl">
+                <h3 class="text-xl font-semibold text-gray-800 mt-5">Amla Nourishing Oil</h3>
+                <p class="text-gray-500 text-sm mt-2">Traditional-inspired nourishment for everyday hair care.</p>
+                <div class="flex items-center justify-between mt-5">
+                    <span class="text-xl font-bold text-[#40826D]">₹549</span>
+                    <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl p-5">
+                <img src="https://www.thenaturalwash.com/cdn/shop/files/Onionhairoil-minimized.jpg?v=1775112341" alt="Onion Hair Oil" class="w-full h-64 object-cover rounded-2xl">
+                <h3 class="text-xl font-semibold text-gray-800 mt-5">Onion Hair Oil</h3>
+                <p class="text-gray-500 text-sm mt-2">A nourishing blend for a regular scalp and hair routine.</p>
+                <div class="flex items-center justify-between mt-5">
+                    <span class="text-xl font-bold text-[#40826D]">₹599</span>
+                    <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl p-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3SLwF5i_jHHs7FLhL01ED_gS43AeBoONN_6dWm49jKQk8b1BrpXXl000&s=10" alt="Castor Hair Oil" class="w-full h-64 object-cover rounded-2xl">
+                <h3 class="text-xl font-semibold text-gray-800 mt-5">Castor Nourish Oil</h3>
+                <p class="text-gray-500 text-sm mt-2">A rich oil blend for dry strands and scalp nourishment.</p>
+                <div class="flex items-center justify-between mt-5">
+                    <span class="text-xl font-bold text-[#40826D]">₹579</span>
+                    <button class="bg-[#40826D] text-white px-5 py-2.5 rounded-full">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. BEST SELLERS -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+            <div>
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">MOST LOVED</p>
+                <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Hair Oil Best Sellers</h2>
+            </div>
+            <a href="#" class="text-[#40826D] font-semibold mt-4 md:mt-0">Shop All →</a>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="border border-gray-100 rounded-2xl overflow-hidden">
+                <div class="relative">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf886Xm0iNn-Ice2zIMJ7nMkfMhpEnYVFQ-TtytWT7nLgHMBpiCwlk8N2d&s=10" alt="Coconut Hair Oil" class="w-full h-64 object-cover">
+                    <span class="absolute top-3 left-3 bg-white text-[#40826D] text-xs font-semibold px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <div class="p-5">
+                    <div class="text-yellow-500 text-sm">★★★★★ <span class="text-gray-400">4.9</span></div>
+                    <h3 class="font-semibold text-gray-800 mt-2">Coconut Nourish Oil</h3>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="font-bold text-[#40826D]">₹599</span>
+                        <button class="text-[#40826D] font-semibold text-sm">Add +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-gray-100 rounded-2xl overflow-hidden">
+                <div class="relative">
+                    <img src="https://img.forestessentialsindia.com/blog/wp-content/uploads/2024/08/Rosemary-Oil-for-hair-mBanner.jpg" alt="Rosemary Oil" class="w-full h-64 object-cover">
+                    <span class="absolute top-3 left-3 bg-white text-[#40826D] text-xs font-semibold px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <div class="p-5">
+                    <div class="text-yellow-500 text-sm">★★★★★ <span class="text-gray-400">4.8</span></div>
+                    <h3 class="font-semibold text-gray-800 mt-2">Rosemary Hair Oil</h3>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="font-bold text-[#40826D]">₹699</span>
+                        <button class="text-[#40826D] font-semibold text-sm">Add +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-gray-100 rounded-2xl overflow-hidden">
+                <div class="relative">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4x2xmPQXsALa_WnJBPlzt70MYn6eXafvneRyM972-Q&s=10" alt="Onion Hair Oil" class="w-full h-64 object-cover">
+                    <span class="absolute top-3 left-3 bg-white text-[#40826D] text-xs font-semibold px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <div class="p-5">
+                    <div class="text-yellow-500 text-sm">★★★★★ <span class="text-gray-400">4.9</span></div>
+                    <h3 class="font-semibold text-gray-800 mt-2">Onion Growth Care Oil</h3>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="font-bold text-[#40826D]">₹649</span>
+                        <button class="text-[#40826D] font-semibold text-sm">Add +</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-gray-100 rounded-2xl overflow-hidden">
+                <div class="relative">
+                    <img src="https://images.ctfassets.net/w62iilzqucuv/6WYiw2K8gmQAt2kZxtL3L6/e0124f7d9b2687f724a6e0d7acab84f8/smooth-emulsion-argan-oil-mod2.webp?w=1416&fm=jpg&q=80" alt="Argan Oil" class="w-full h-64 object-cover">
+                    <span class="absolute top-3 left-3 bg-white text-[#40826D] text-xs font-semibold px-3 py-1 rounded-full">BEST SELLER</span>
+                </div>
+                <div class="p-5">
+                    <div class="text-yellow-500 text-sm">★★★★★ <span class="text-gray-400">4.8</span></div>
+                    <h3 class="font-semibold text-gray-800 mt-2">Argan Smooth Oil</h3>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="font-bold text-[#40826D]">₹749</span>
+                        <button class="text-[#40826D] font-semibold text-sm">Add +</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. LIMITED OFFERS -->
+<section class="py-20 bg-[#EEF5F1]">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-10">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">SPECIAL DEALS</p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Limited Hair Oil Offers</h2>
+            <p class="text-gray-500 mt-3">Grab selected favorites before they run out.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-3xl p-5 flex gap-5 items-center">
+                <div class="relative shrink-0">
+                    <img src="https://vedix.com/cdn/shop/files/Keshamrut_Oil_Hero.jpg?v=1778068558" alt="Hair Oil Offer" class="w-36 h-40 object-cover rounded-2xl">
+                    <span class="absolute top-2 left-2 bg-[#40826D] text-white text-xs px-2 py-1 rounded-full">20% OFF</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Herbal Nourish Oil</h3>
+                    <p class="text-gray-500 text-sm mt-2">A nourishing blend for dry and dull-looking hair.</p>
+                    <p class="text-red-500 text-sm mt-3">🔥 Only 4 left</p>
+                    <div class="flex items-center gap-3 mt-3">
+                        <span class="text-gray-400 line-through">₹799</span>
+                        <span class="font-bold text-[#40826D] text-lg">₹639</span>
+                    </div>
+                    <button class="mt-3 bg-[#40826D] text-white px-5 py-2 rounded-full text-sm">Shop Deal</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl p-5 flex gap-5 items-center">
+                <div class="relative shrink-0">
+                    <img src="https://sunbeamventures.in/cdn/shop/files/RosemaryscalpandHairoil0_3756717e-feb5-47e7-b045-42614a22dc25.jpg?v=1767618540&width=2000" alt="Rosemary Hair Oil Offer" class="w-36 h-40 object-cover rounded-2xl">
+                    <span class="absolute top-2 left-2 bg-[#40826D] text-white text-xs px-2 py-1 rounded-full">15% OFF</span>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800">Rosemary Scalp Oil</h3>
+                    <p class="text-gray-500 text-sm mt-2">Lightweight care for your regular scalp routine.</p>
+                    <p class="text-red-500 text-sm mt-3">⚡ Only 6 left</p>
+                    <div class="flex items-center gap-3 mt-3">
+                        <span class="text-gray-400 line-through">₹749</span>
+                        <span class="font-bold text-[#40826D] text-lg">₹637</span>
+                    </div>
+                    <button class="mt-3 bg-[#40826D] text-white px-5 py-2 rounded-full text-sm">Shop Deal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. INGREDIENTS SPOTLIGHT -->
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="mb-10">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">NATURAL CARE</p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-2">Ingredients Spotlight</h2>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-[#F3F7F4] p-6 rounded-2xl text-center">
+                <div class="text-4xl">🥥</div>
+                <h3 class="text-lg font-semibold text-gray-800 mt-4">Coconut</h3>
+                <p class="text-gray-500 text-sm mt-2">Helps keep hair feeling soft and nourished.</p>
+            </div>
+            <div class="bg-[#F8F3F1] p-6 rounded-2xl text-center">
+                <div class="text-4xl">🌿</div>
+                <h3 class="text-lg font-semibold text-gray-800 mt-4">Rosemary</h3>
+                <p class="text-gray-500 text-sm mt-2">A popular ingredient for scalp-focused routines.</p>
+            </div>
+            <div class="bg-[#F3F7F4] p-6 rounded-2xl text-center">
+                <div class="text-4xl">🍃</div>
+                <h3 class="text-lg font-semibold text-gray-800 mt-4">Amla</h3>
+                <p class="text-gray-500 text-sm mt-2">Traditional hair care ingredient for nourishment.</p>
+            </div>
+            <div class="bg-[#F8F3F1] p-6 rounded-2xl text-center">
+                <div class="text-4xl">✨</div>
+                <h3 class="text-lg font-semibold text-gray-800 mt-4">Argan</h3>
+                <p class="text-gray-500 text-sm mt-2">Helps give hair a smooth, glossy-looking finish.</p>
+            </div>
+            <div class="bg-[#F3F7F4] p-6 rounded-2xl text-center">
+                <div class="text-4xl">🧅</div>
+                <h3 class="text-lg font-semibold text-gray-800 mt-4">Onion</h3>
+                <p class="text-gray-500 text-sm mt-2">Commonly used in strengthening hair care blends.</p>
+            </div>
+            <div class="bg-[#F8F3F1] p-6 rounded-2xl text-center">
+                <div class="text-4xl">🌱</div>
+                <h3 class="text-lg font-semibold text-gray-800 mt-4">Castor</h3>
+                <p class="text-gray-500 text-sm mt-2">A rich oil used for nourishing dry hair.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 7. CUSTOMER FAVORITES -->
+<section class="py-20 bg-[#F8F3F1]">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="bg-white rounded-3xl p-8 md:p-10">
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">CUSTOMER FAVORITE</p>
+                <div class="text-yellow-500 text-xl mt-5">★★★★★</div>
+                <p class="text-gray-600 text-lg leading-8 mt-5">
+                    “The oil feels light on my scalp and leaves my hair
+                    much softer after washing. It has become part of my
+                    weekly hair care routine.”
+                </p>
+                <div class="flex items-center gap-4 mt-6">
+                    <div class="w-12 h-12 bg-[#DCEBE4] rounded-full flex items-center justify-center">👩</div>
+                    <div>
+                        <h4 class="font-semibold text-gray-800">Ananya</h4>
+                        <p class="text-sm text-gray-400">Verified Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="text-gray-500 text-sm mb-4">MOST LOVED BY CUSTOMERS</p>
+                <div class="bg-white rounded-2xl p-5 flex gap-5 items-center">
+                    <img src="https://m.media-amazon.com/images/I/61E5mrKZZAL._AC_UF1000,1000_QL80_.jpg" alt="Customer Favorite Hair Oil" class="w-36 h-40 object-cover rounded-xl">
+                    <div>
+                        <span class="text-[#40826D] text-xs font-semibold">CUSTOMER FAVOURITE ❤️</span>
+                        <h3 class="text-xl font-semibold text-gray-800 mt-2">Rosemary Nourish Hair Oil</h3>
+                        <div class="text-yellow-500 text-sm mt-2">★★★★★ <span class="text-gray-400">4.9</span></div>
+                        <p class="font-bold text-[#40826D] text-lg mt-3">₹699</p>
+                        <button class="mt-3 border border-[#40826D] text-[#40826D] px-5 py-2 rounded-full hover:bg-[#40826D] hover:text-white transition">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 8. HAIR OIL ROUTINE -->
+<section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">SIMPLE HAIR CARE</p>
+            <h2 class="text-4xl font-serif font-bold text-gray-800 mt-3">Your Hair Oil Routine</h2>
+            <p class="text-gray-500 mt-3 max-w-xl mx-auto">
+                A simple routine to make hair oiling a relaxing part
+                of your weekly self-care.
+            </p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="text-center">
+                <div class="w-20 h-20 mx-auto rounded-full bg-[#F3F7F4] flex items-center justify-center text-3xl">🫗</div>
+                <span class="block text-[#40826D] text-sm font-bold mt-4">01</span>
+                <h3 class="font-semibold text-gray-800 mt-1">Apply</h3>
+                <p class="text-gray-500 text-sm mt-2">Apply a small amount of oil to the scalp and lengths.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-20 h-20 mx-auto rounded-full bg-[#F8F3F1] flex items-center justify-center text-3xl">💆</div>
+                <span class="block text-[#40826D] text-sm font-bold mt-4">02</span>
+                <h3 class="font-semibold text-gray-800 mt-1">Massage</h3>
+                <p class="text-gray-500 text-sm mt-2">Gently massage the scalp using your fingertips.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-20 h-20 mx-auto rounded-full bg-[#F3F7F4] flex items-center justify-center text-3xl">⏰</div>
+                <span class="block text-[#40826D] text-sm font-bold mt-4">03</span>
+                <h3 class="font-semibold text-gray-800 mt-1">Leave On</h3>
+                <p class="text-gray-500 text-sm mt-2">Leave the oil for your preferred routine time.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-20 h-20 mx-auto rounded-full bg-[#F8F3F1] flex items-center justify-center text-3xl">🚿</div>
+                <span class="block text-[#40826D] text-sm font-bold mt-4">04</span>
+                <h3 class="font-semibold text-gray-800 mt-1">Wash</h3>
+                <p class="text-gray-500 text-sm mt-2">Wash thoroughly with your favorite shampoo.</p>
+            </div>
+        </div>
+        <div class="mt-12 text-center">
+            <span class="inline-block bg-[#F3F7F4] text-[#40826D] px-5 py-2 rounded-full text-sm font-semibold">
+                🌿 Make hair oiling a regular self-care ritual
+            </span>
+        </div>
+    </div>
+</section>
+<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>
+			
+			
+		
+
+		

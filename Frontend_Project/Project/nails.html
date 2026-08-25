@@ -1,0 +1,946 @@
+<html>
+<head>
+	<title> Premium Makeup & Beauty Products Online | Glow Nest</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!--Navigation-->
+	<section>
+		<nav class="bg-white shadow-md w-full fixed z-50">
+			<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+				<img src="1img/logo.png" class="h-16 w-auto">
+
+				<!-- Desktop Nav Links (hidden on mobile) -->
+				<div class="hidden md:flex space-x-7 text-[#60694C] justify-center font-medium">
+					<a href="home.html" class="hover:text-[#2A3B24]">Home</a>
+					<a href="nails.html" class="hover:text-[#2A3B24]">Nails</a>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Skincare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Cleansers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Cleansers</a>
+							<a href="Serums.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Serums</a>
+							<a href="Moisturizers.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Moisturizers</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Makeup
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="Lips.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Lips</a>
+							<a href="face.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Face</a>
+							<a href="eyes.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Eyes</a>
+							
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Haircare
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="shampoo.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Shampoo</a>
+							<a href="conditioner.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Conditioner</a>
+							<a href="hairoil.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Oil</a>
+							<a href="haircream.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Creams & Masks</a>
+							<a href="hairserum.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Hair Serum</a>
+						</div>
+					</div>
+					<div class="relative group">
+						<button class="hover:text-[#2A3B24] transition duration-200 flex items-center gap-1">
+							Fragrances
+							<span class="inline-block transition duration-200 group-hover:translate-y-0.5">▾</span>
+						</button>
+						
+						<div class="absolute left-0 top-full mt-2 w-44 bg-[#2A3B24] border border-[#3D5A3D]
+								rounded-lg overflow-hidden opacity-0 invisible
+								group-hover:opacity-100 group-hover:visible
+								transition-all duration-150 ease-out z-50">
+							<a href="womensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Womens Fragrances</a>
+							<a href="mensfrag.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Mens Fragrances</a>
+							<a href="bodymist.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Body Mist</a>
+							<a href="rollon.html" class="block px-4 py-2 text-sm text-[#E8DCC4] hover:bg-[#3D5A3D] transition duration-150">Roll on Collection</a>
+						</div>
+					</div>
+				</div> 
+
+				<!-- Desktop Button -->
+				<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 mx-10 cursor-pointer">
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+					<span class="block w-6 h-0.5 bg-gray-700"></span>
+				</label>
+			</div>
+
+			<input type="checkbox" id="menuToggle" class="hidden peer"/>
+			<div class="hidden peer-checked:block md:hidden bg-white px-6 pb-4">
+				<ul class="flex flex-col space-y-3 text-gray-600 font-medium">
+					<li><a href="index.html" class="hover:text-[#D4A24C]]">Home</a></li>
+					<li><a href="nails.html" class="hover:text-[#D4A24C]">Nails</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Skincare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Makeup</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Haircare</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Fragrances</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">New Arrivals</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Best Sellers</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Gift Sets</a></li>
+					<li><a href="#" class="hover:text-[#D4A24C]">Offers & Deals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+	
+<!-- Hero Section -->
+	<section class="relative min-h-screen pt-28">
+		<div
+			class="absolute inset-0 h-full w-full bg-cover bg-center bg-no-repeat"
+			style="background-image: url('https://media.licdn.com/dms/image/v2/C4D12AQGKKpt3ZCGTFQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1540538898782?e=2147483647&v=beta&t=9B3nGrZx0adLY_r14iBT0NC4y5GI35UZ3Enx1yWymmg');">
+		</div>
+		<div class="absolute inset-0 bg-black/30"></div>
+		<div class="relative z-10 mx-auto flex h-full max-w-7xl items-center px-8">
+			<div class="max-w-xl text-white">
+				<p class="mb-4 mt-16 text-sm uppercase tracking-[6px]">
+					Glow & Nest Cosmetics
+				</p>
+				<h1 class="mb-6 text-5xl font-bold leading-tight md:text-7xl">
+					Perfect Nails <br>
+					Perfect <span class="text-[#40826D]">Glow</span>
+				</h1>
+				<p class="mb-8 text-lg leading-8 text-gray-200">
+					Discover luxurious nail collections crafted to enhance your beauty.
+					From elegant nude shades to bold statement colors, find your perfect style.
+				</p>
+				<div class="flex gap-4">
+					<button
+						class="rounded-full bg-[#40826D] px-8 py-4 text-lg font-semibold shadow-lg hover:bg-[#5F8575]">
+						Shop Collection
+					</button>
+					<button
+						class="rounded-full border border-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-black">
+						Explore More
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!-- Shop By Category -->
+	<section class="py-20 bg-[#F8F5F2]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Shop by Category
+				</h2>
+				<p class="text-gray-500 mt-4 text-lg">
+					Discover beautiful nail essentials crafted for every style.
+				</p>
+			</div>
+        <!-- Category Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9HO1KqWY10-JzlalRczfRr8BTXmwX3-89z4lbVo1O3Q&s=10"
+					alt="GEL POLISh"
+                    class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">
+                        Gel Polish
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Long-lasting glossy nail colors for every occasion.
+                    </p>
+                    <a href="#Gel Polish" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition duration-300">
+						Explore
+					</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzahU5raLeW5VtcWAibU7P3vw1bCaZQu1LCRrK0LoSwQ&s=10"
+					alt="MATTE POLISh"
+                    class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">
+                        Matte Polish
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Elegant matte shades with premium finish.
+                    </p><br>
+                    <a href="#Matte Polish" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition duration-300">
+						Explore
+					</a>
+                </div>
+            </div>
+			<div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIW-ngzUHcreBEIaA0rSge4_jWWQgKw3qCh1Pyvjm3Mw&s=10"
+					alt="GLITTER COLLECTION"
+                     class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">
+                        Glitter Collection
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Sparkling nail shades that shine beautifully.
+                    </p><br>
+					<a href="#Glitter Collection" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition duration-300">
+						Explore
+					</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDVEHVLqQYaMIVCl-ZKRVWZSDiUWRqPd7UDN2g48cMrA&s=10"
+					alt="PRESS ON NAILS"
+                     class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">
+                        Press-On Nails
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Ready-to-wear stylish nail designs.
+                    </p>
+					<a href="#Press On Nails" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition duration-300">
+						Explore
+					</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdIbHAC6J3GSJ45mJmsTyfGI_Nh5y1_X5YpH0huEVfDA&s=10"
+					alt="NAIL CARE"
+                     class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">
+                        Nail Care
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Healthy nails begin with proper care.
+                    </p>
+                    <a href="#Nail Care" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition duration-300">
+						Explore
+					</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMezigs6zsIkd96J54fUqcZ5Z-7lRpa-1_Za5STusDKw&s=10"
+					alt="NAIL ART"
+                     class="w-full h-72 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">
+                        Nail Art
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Creative accessories for stunning nail designs.
+                    </p>
+                    <a href="#Nail Art" class="inline-block mt-6 bg-[#5F8575] hover:bg-[#40826D] text-white px-6 py-3 rounded-full transition duration-300">
+						Explore
+					</a>
+                </div>
+            </div>
+        </div>
+	</section>
+
+<!-- Trending Nail Colors -->
+	<section class="py-20 bg-[#F0F8F0]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Trending Nail Colors
+				</h2>
+				<p class="mt-4 text-gray-500 text-lg">
+					Discover this season's most loved nail shades.
+				</p>
+			</div>
+			
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+				<div class=" bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8 text-center">
+					<div class="w-24 h-24 rounded-full bg-red-800 mx-auto border-4 border-white shadow-lg"></div>
+					<h3 class="mt-6 text-2xl font-semibold text-gray-800">
+						Cherry Red
+					</h3>
+					<p class="mt-2 text-gray-500">
+						A timeless shade for every occasion.
+					</p>
+				</div>
+				
+				<div class=" bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8 text-center">
+					<div class="w-24 h-24 rounded-full bg-pink-100 mx-auto border-4 border-white shadow-lg"></div>
+					<h3 class="mt-6 text-2xl font-semibold text-gray-800">
+						Baby Pink
+					</h3>
+					<p class="mt-2 text-gray-500">
+						Soft, elegant & feminine.
+					</p>
+				</div>
+				
+				<div class=" bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8 text-center">
+					<div class="w-24 h-24 rounded-full bg-[#673147] mx-auto border-4 border-white shadow-lg"></div>
+					<h3 class="mt-6 text-2xl font-semibold text-gray-800">
+						Plum
+					</h3>
+					<p class="mt-2 text-gray-500">
+						Perfect everyday neutral tone.
+					</p>
+				</div>
+
+				<div class=" bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8 text-center">
+					<div class="w-24 h-24 rounded-full bg-purple-300 mx-auto border-4 border-white shadow-lg"></div>
+					<h3 class="mt-6 text-2xl font-semibold text-gray-800">
+						Lavender
+					</h3>
+					<p class="mt-2 text-gray-500">
+						Calm, classy and trendy.
+					</p>
+				</div>
+
+				<div class=" bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8 text-center">
+					<div class="w-24 h-24 rounded-full bg-[#FFE5B4] mx-auto border-4 border-white shadow-lg"></div>
+					<h3 class="mt-6 text-2xl font-semibold text-gray-800">
+						Peach
+					</h3>
+					<p class="mt-2 text-gray-500">
+						Romantic shades with a luxury finish.
+					</p>
+				</div>
+
+				<div class="bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8 text-center">
+					<div class="w-24 h-24 rounded-full bg-gray-900 mx-auto border-4 border-white shadow-lg"></div>
+					<h3 class="mt-6 text-2xl font-semibold text-gray-800">
+						Midnight Black
+					</h3>
+					<p class="mt-2 text-gray-500">
+						Bold, modern and sophisticated.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--Gel Nail Polish-->
+
+	<section id="Gel Polish" class="max-w-7xl bg-[#F8F5F2] mx-auto py-12 px-6">
+        <h2 class="text-4xl text-center text-[#40826D] font-bold mb-6">
+            1. Gel Polish Products
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://images.unsplash.com/photo-1582121600983-d7ce72daf0a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D"
+					alt="Cherry Red"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Cherry Red
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 310.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-F6-1pyH9c4z6Z3v72AQs9xpHsx-kb86IASwK2tOIWg&s=10"
+					alt="Lilac Shine"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Lilac Shine 
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 654.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://verymiss.in/cdn/shop/files/VERYM00000191_2.jpg?v=1696416283&width=1946"
+					alt="Nude Glow"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Nude Glow
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 250.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://media-dynamic.okendo.io/images/dba1e1f8-49e6-471f-af18-a56380b5fa7e/2c77bce3-89b9-4d41-8395-c00856de25ef.jpg?d=3200x3200s"
+					alt="Milky White"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Milky White
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 224.00
+                    </p>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+<!--Matte Nail Polish-->
+	<section id="Matte Polish" class="max-w-7xl bg-[#F0F8F0] mx-auto py-12 px-6">
+        <h2 class="text-4xl text-center text-[#40826D] font-bold mb-6">
+            2. Matte Polish Products
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4mKthZUse35y9wkHBnt8rNJki9nP94-Q93VBVjvD6A&s=10"
+					alt="Black Matte"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Black Matte 
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 199.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyNcbooJi4P6nYZPphCOWRC8GfHMGuZ4csnbY3Vb-6w&s=10"
+					alt="Matte Mocha"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Matte Mocha
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 210.00
+                    </p>
+				</div>
+			</div>
+
+             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://img.kwcdn.com/product/open/c8ed37bffce44e65bb1c7fb46d0b4f56-goods.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+					alt="Milky White"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Matte Milky White
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 250.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMvWLyhLNHOUHM7xn45ug8d4TPvnpetkFKt9JH-emrCJ7Dax9kkpk7eM8&s=10"
+					alt="Mettalic Gold"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Mettalic Gold
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 349.00
+                    </p>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+<!--Giltter  Nail Polish-->
+	<section id="Glitter Collection" class="max-w-7xl bg-[#F8F5F2] mx-auto py-12 px-6">
+        <h2 class="text-4xl text-center text-[#40826D] font-bold mb-6">
+            3. Giltter Polish Products
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://www.missnailsforyou.com/cdn/shop/files/36_a6e4989e-9ed0-47ce-b990-0f51fe5bbe04.png?v=1760536445"
+					alt="Rose Gold"
+                    class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Rose Gold
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 230.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://assets.myntassets.com/assets/images/2025/DECEMBER/12/QS0qbetZ_96c6172f7dfe435896d26025a86d9979.jpg"
+					alt="Glitz Cocktail"
+                    class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Glitz Cocktail
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 211.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://www.missnailsforyou.com/cdn/shop/files/30_a221f704-b461-46f4-b0fc-31c7e66d8851.png?v=1760536448"
+					alt="Deep Amethyst Purple"
+                     class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Deep Amethyst Purple
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 299.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://assets.myntassets.com/assets/images/2026/FEBRUARY/24/rcjBHhDB_1378322afdcc4b84bf06892d80b54e87.jpg"
+					alt="Purple Jewel"
+                     class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Purple Jewel
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 349.00
+                    </p>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+<!--Press On Nails-->
+	<section id="Press On Nails" class="max-w-7xl bg-[#F0F8F0] mx-auto py-12 px-6">
+        <h2 class="text-4xl text-center text-[#40826D] font-bold mb-6">
+            4. Press-On Nails
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzr7K0YkBiUZ9FgVF0DvynnGJ57o35MXLuKGEIB6-XAg&s=10"
+					alt="Sangria-Set of 24"
+                    class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Sangria-Set of 24
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 699.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://img.tatacliq.com/images/i18//437Wx649H/MP000000023026820_437Wx649H_202407242336171.jpeg"
+					alt=" Pink Poise-Set of 24"
+                    class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Pink Poise-Set of 24
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 899.00
+                    </p>
+				</div>
+			</div>
+
+             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://img.tatacliq.com/images/i18//437Wx649H/MP000000023026898_437Wx649H_202407242337471.jpeg"
+					alt="Indigo-Set of 24"
+                     class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Indigo-Set of 24
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 450.00
+                    </p>
+				</div>
+			</div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://img.tatacliq.com/images/i18//437Wx649H/MP000000023026848_437Wx649H_202407242336151.jpeg"
+					alt="Chestnut"
+                     class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+						Chestnut-Set of 24
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 599.00
+                    </p>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+<!--Nail Care-->
+	<section id="Nail Care" class="max-w-7xl bg-[#F8F5F2] mx-auto py-12 px-6">
+        <h2 class="text-4xl text-center text-[#40826D] font-bold mb-6">
+            5. Nail Care
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6 justify-center">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://www.glamnails.in/wp-content/uploads/2025/04/11-in-1-2-min-1024x1024.jpg"
+					alt="Cuticle Oil"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Cuticle Oil
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 550.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://japonesque.com/cdn/shop/files/9_2c610ee0-3625-466c-a129-d787dfb7fe18.png?v=1736813714"
+					alt="Travel Manicure Kit "
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+						Manicure Kit 6-in-1
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 599.00
+                    </p>
+				</div>
+			</div>
+			
+             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMG16a5YG4m1NNSBZvcYut_V0aWhzDqpJn1N3mbJhrug&s=10"
+					alt="Nail Filer"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Nail Filer and Buffer
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 56.60
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKTXMYlNvWX70sgvKB4YUjJm4cEjI_p93T7znu8HzAyg&s=10"
+					alt="Cuticle"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Cuticle Cutter
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 190.00
+                    </p>
+				</div>
+			</div>
+        </div>
+		
+		<div class="grid md:grid-cols-3 gap-6 py-12 max-w-7xl mx-auto px-6">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT200yoUiFJN1iydITyVT7ZQJl6eI5N9NU_V6PRRkGXDA&s=10"
+					alt="Nail Primer"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Nail Primer
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 473.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://www.clinikally.com/cdn/shop/files/MohaNailCareCream100gm2.jpg?v=1750397430&width=1000"
+					alt="Moha Nail Care Cream"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+						Moha Nail Care Cream
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 330.00
+                    </p>
+				</div>
+			</div>
+			
+             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRHHu0Nl8V-A-QNlNEMFzDVP-JD_ToAGI3QAEvKNFGVtFNSz1abcB2f8&s=10"
+					alt="Nail Drying Drops"
+                    class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Nail Drying Drops
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 670.60
+                    </p>
+				</div>
+			</div>
+		</div>
+    </section>
+	
+<!--Nail Art-->
+	<section id="Nail Art" class="max-w-7xl bg-[#F0F8F0] mx-auto py-12 px-6">
+        <h2 class="text-4xl text-center text-[#40826D] font-bold mb-6">
+            6. Nail Art Tools
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6">
+			<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://images-static.nykaa.com/media/catalog/product/2/e/2e30e598906137735872_1.jpg?tr=w-500"
+					alt="Nail Art Brush"
+                    class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Nail Art Brush Set Tool Kit
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 550.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://m.media-amazon.com/images/I/71KarU27+1L._AC_UF894,1000_QL80_.jpg"
+					alt="  Nail Art- Trendy Stars"
+                    class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        Nail Art- Trendy Stars
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 159.00
+                    </p>
+				</div>
+			</div>
+			
+             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://m.media-amazon.com/images/I/61mrTqc7c2L._AC_UF894,1000_QL80_.jpg"
+					alt="Nail Sticker"
+                     class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                       Nail Sticker
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 119.00
+                    </p>
+				</div>
+			</div>
+			
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 group">
+                <img src="https://m.media-amazon.com/images/I/61IaaCg-M1L.jpg"
+					alt="Bow Nail Charm"
+                     class="w-full h-72 object-contain  group-hover:scale-110 transition duration-500">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">
+						Bow Nail Charm
+                    </h3>
+                    <p class="text-gray-500 mt-3">
+                        Rs 199.78
+                    </p>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+<!-- Nail Art Inspiration -->
+	<section class="py-20 bg-[#F8F5F2]">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-14">
+				<h2 class="text-5xl font-serif font-bold text-[#40826D]">
+					Nail Art Inspiration
+				</h2>
+				<p class="mt-4 text-gray-500 text-lg">
+					Explore elegant nail designs for every mood and occasion.
+				</p>
+			</div>
+			
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc29e6suFsCITLbNCpkPhH19B94tD2efkjOkxiR71KA&s=10"
+						 alt="French Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">French Nails</h3>
+							<p class="text-green-200">Classic • Elegant</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2BewQ-8rOe9dq6HilQh-vatNrSSHBgkORzmvB-UQMXw&s=10"
+						 alt="Chrome Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Chrome Nails</h3>
+							<p class="text-green-200">Shiny • Modern</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCG5MeSnGGuCBgDLQkYdZBQCLhh5_O5T-XxH81Av3nYA&s=10"
+						 alt="Floral Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Floral Nails</h3>
+							<p class="text-green-200">Soft • Romantic</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9JTbZlYe9Ex0erg6fK6LcupY8t1-6gVNFAGz4zaEbWw&s=10"
+						 alt="Marble Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Marble Nails</h3>
+							<p class="text-green-200">Luxury • Chic</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_gSN55E16OoQVOtlH9IE_LTG5j96Y64H0EquWqfosQ&s=10"
+						 alt="Glitter Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Glitter Nails</h3>
+							<p class="text-green-200">Party • Sparkle</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAB_JEE2eknjnUyZnQTF79xos2q3gvryyApFUq1UYn9w&s=10"
+						 alt="Minimal Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Minimal Nails</h3>
+							<p class="text-green-200">Simple • Stylish</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://i0.wp.com/greenweddingshoes.com/wp-content/uploads/2025/02/Hailey-Bieber-white-sheer-glazed-donut-nails.jpg?fit=1024%2C9999"
+						 alt="Minimal Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Glazed Donut Nails</h3>
+							<p class="text-green-200">Soft • Shine</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNjt-hml7YmsQAPwwJSLSJ8Ai6cN050KYWLPk-6kVu6A&s=10"
+						 alt="Cat Eye Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Cat Eye Nails</h3>
+							<p class="text-green-200">Bold • Spark</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="relative overflow-hidden rounded-3xl shadow-lg group">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ZOQw5V9uYWhWjblvUHDRDF_nDfA2MXjzyljBWx1g8w&s=10"
+						 alt="Ombre Nails"
+						 class="w-full h-96 object-cover group-hover:scale-110 transition duration-500">
+					<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+						<div>
+							<h3 class="text-2xl text-white font-semibold">Ombre Nails</h3>
+							<p class="text-green-200">Perfect • Blend</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--footer-->
+	<footer id="contact" class="bg-[#14200F] text-[#E8DCC4] pt-16 pb-8 px-6 ">
+		<div class="max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+			<div>
+				<p class="font-display italic text-2xl text-[#F7F5F0] px-6 mb-3">Glow Nest</p>
+				<p class="text-sm px-6 leading-relaxed text-[#E8DCC4]/70">
+				  Glow Beyond Beauty.
+				</p>
+				<img src="1img\logobg.png" class="w-50 h-50 z-20 ">
+				
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">orders</p>
+				<div class="flex flex-col space-y-3 text-sm">
+				  <a href="#" class="hover:text-[#D4A24C] transition duration-200">Track Order</a>
+				  <a href="#gallery" class="hover:text-[#D4A24C] transition duration-200">Cancel Order</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Help</p>
+				<div class="flex flex-col space-y-3 text-sm">
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Contact Us </a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Terms and Conditions</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy and Notice</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Cancellation Refunds</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Accessibility</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Privacy Policy</a>
+					<a href="#" class="hover:text-[#D4A24C] transition duration-200">Shipping Delivery</a>
+				</div>
+			</div>
+
+			<div>
+				<p class="text-xs uppercase tracking-[0.2em] text-[#D4A24C] font-semibold mb-4">Contact</p>
+				<div class="flex flex-col space-y-3 text-sm text-[#E8DCC4]/70">
+				  <p>glowandnest@gmail.com</p>
+				  <p>+91 98765 43210</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom bar -->
+		<div class="max-w-6xl mx-auto border-t border-[#3D5A3D]/40 pt-6
+					flex flex-col md:flex-row items-center justify-between gap-4">
+			<p class="text-xs text-[#E8DCC4]/60">© 2026 GLOW & NEST. All rights reserved.</p>
+			<div class="flex space-x-6 text-xs">
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Instagram</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">YouTube</a>
+				<a href="#" class="hover:text-[#D4A24C] transition duration-200">Newsletter</a>
+			</div>
+		</div>
+		<div>
+	</footer>
+</body>
+</html>
+			
+			
+		
+
+		
