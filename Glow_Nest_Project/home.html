@@ -1,0 +1,681 @@
+<html>
+<head>
+    <title>Premium Hair Creams & Masks Online | Glow Nest</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 py-3 flex items-center justify-between">
+        <a href="home.html" class="shrink-0">
+            <img src="1img/logo.png" alt="Glow Nest" class="h-14 w-auto">
+        </a>
+        <div class="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-semibold text-[#3F5F50]">
+            <a href="home.html" class="hover:text-[#40826D] transition">Home</a>
+            <a href="nails.html" class="hover:text-[#40826D] transition">Nails</a>
+            <div class="relative group">
+                <button class="flex items-center gap-1 hover:text-[#40826D] transition">
+                    Skincare <span class="text-xs">▾</span>
+                </button>
+                <div class="absolute left-0 top-full mt-3 w-48 bg-[#40826D] shadow-xl rounded-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-out">
+                    <a href="Cleansers.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Cleansers</a>
+                    <a href="Serums.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Serums</a>
+                    <a href="Moisturizers.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Moisturizers</a>
+                </div>
+            </div>
+            <div class="relative group">
+                <button class="flex items-center gap-1 hover:text-[#40826D] transition">
+                    Makeup <span class="text-xs">▾</span>
+                </button>
+                <div class="absolute left-0 top-full mt-3 w-44 bg-[#40826D] shadow-xl rounded-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-out">
+                    <a href="Lips.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Lips</a>
+                    <a href="face.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Face</a>
+                    <a href="eyes.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Eyes</a>
+                </div>
+            </div>
+            <div class="relative group">
+                <button class="flex items-center gap-1 hover:text-[#40826D] transition">
+                    Haircare <span class="text-xs">▾</span>
+                </button>
+                <div class="absolute right-0 top-full mt-3 w-56 bg-[#40826D] shadow-xl rounded-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-out">
+                    <a href="shampoo.html" class="block px-5 py-3 text-white whitespace-nowrap hover:bg-[#5F8575] transition">Shampoo</a>
+                    <a href="conditioner.html" class="block px-5 py-3 text-white whitespace-nowrap hover:bg-[#5F8575] transition">Conditioner</a>
+                    <a href="hairoil.html" class="block px-5 py-3 text-white whitespace-nowrap hover:bg-[#5F8575] transition">Hair Oil</a>
+                    <a href="haircream.html" class="block px-5 py-3 text-white whitespace-nowrap hover:bg-[#5F8575] transition">Hair Creams & Masks</a>
+                </div>
+            </div>
+            
+        </div>
+        <label for="menuToggle" class="lg:hidden cursor-pointer p-2">
+            <div class="space-y-1.5">
+                <span class="block w-6 h-0.5 bg-[#3F5F50]"></span>
+                <span class="block w-6 h-0.5 bg-[#3F5F50]"></span>
+                <span class="block w-6 h-0.5 bg-[#3F5F50]"></span>
+            </div>
+        </label>
+    </div>
+    <input type="checkbox" id="menuToggle" class="hidden peer">
+    <div class="hidden peer-checked:block lg:hidden bg-white border-t border-gray-100 shadow-md">
+        <div class="px-5 py-4 text-sm font-semibold text-[#3F5F50]">
+            <a href="home.html" class="block py-3 hover:text-[#40826D] transition">Home</a>
+            <a href="nails.html" class="block py-3 hover:text-[#40826D] transition">Nails</a>
+            <div class="border-t border-gray-100">
+                <input type="checkbox" id="mobileSkincare" class="hidden peer">
+                <label for="mobileSkincare" class="flex items-center justify-between py-3 cursor-pointer hover:text-[#40826D] transition">
+                    <span>Skincare</span>
+                    <span class="text-xs">▾</span>
+                </label>
+                <div class="hidden peer-checked:block bg-[#40826D] rounded-lg mb-2 overflow-hidden">
+                    <a href="Cleansers.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Cleansers</a>
+                    <a href="Serums.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Serums</a>
+                    <a href="Moisturizers.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Moisturizers</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-100">
+                <input type="checkbox" id="mobileMakeup" class="hidden peer">
+                <label for="mobileMakeup" class="flex items-center justify-between py-3 cursor-pointer hover:text-[#40826D] transition">
+                    <span>Makeup</span>
+                    <span class="text-xs">▾</span>
+                </label>
+                <div class="hidden peer-checked:block bg-[#40826D] rounded-lg mb-2 overflow-hidden">
+                    <a href="Lips.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Lips</a>
+                    <a href="face.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Face</a>
+                    <a href="eyes.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Eyes</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-100">
+                <input type="checkbox" id="mobileHaircare" class="hidden peer">
+                <label for="mobileHaircare" class="flex items-center justify-between py-3 cursor-pointer hover:text-[#40826D] transition">
+                    <span>Haircare</span>
+                    <span class="text-xs">▾</span>
+                </label>
+                <div class="hidden peer-checked:block bg-[#40826D] rounded-lg mb-2 overflow-hidden">
+                    <a href="shampoo.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Shampoo</a>
+                    <a href="conditioner.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Conditioner</a>
+                    <a href="hairoil.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Hair Oil</a>
+                    <a href="haircream.html" class="block px-5 py-3 text-white hover:bg-[#5F8575] transition">Hair Creams & Masks</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero -->
+    <section>
+        <div class="relative min-h-[650px] flex items-center overflow-hidden">
+
+            <img
+                src="https://images.unsplash.com/photo-1659517175423-9e94aa553374?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Glow Nest Beauty Collection"
+                class="absolute inset-0 w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-black/35"></div>
+
+            <div class="relative max-w-7xl mx-auto w-full px-6 md:px-12">
+                <div class="max-w-xl text-white">
+
+                    <p class="uppercase tracking-[4px] text-sm mb-4">
+                        Glow Nest Beauty
+                    </p>
+
+                    <h1 class="text-5xl md:text-7xl font-serif font-bold leading-tight">
+                        Beauty Made
+                        <span class="text-[#C1E1C1]">For You</span>
+                    </h1>
+
+                    <p class="mt-6 text-base md:text-lg leading-7 text-white/90">
+                        Discover everyday makeup, skincare and beauty essentials
+                        selected to make your routine feel simple and special.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 mt-8">
+                        <a href="#new-launches"
+                           class="bg-white text-[#40826D] px-7 py-3 rounded-full font-semibold hover:bg-[#C1E1C1] transition">
+                            Shop Now
+                        </a>
+
+                        <a href="#categories"
+                           class="border border-white px-7 py-3 rounded-full hover:bg-white hover:text-gray-800 transition">
+                            Explore Categories
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Shop By Category -->
+    <section id="categories" class="py-20 bg-[#F8F5F2]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-10">
+                <div>
+                    <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                        Explore Beauty
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-serif font-bold text-gray-800 mt-2">
+                        Shop By Category
+                    </h2>
+                </div>
+
+                <p class="text-gray-500 max-w-md mt-4 md:mt-0">
+                    Find your favorites across makeup, skincare, nails and more.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
+
+                <a href="eyes.html" class="group relative h-64 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1583931537180-7d26921260e4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="Eyes" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+                    <h3 class="absolute bottom-5 left-5 text-white text-xl font-semibold">Eyes</h3>
+                </a>
+
+                <a href="Lips.html" class="group relative h-64 rounded-2xl overflow-hidden">
+                    <img src="https://plus.unsplash.com/premium_photo-1677526496932-1b4bddeee554?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlwc3RpY2t8ZW58MHx8MHx8fDA%3D" alt="Lips" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+                    <h3 class="absolute bottom-5 left-5 text-white text-xl font-semibold">Lips</h3>
+                </a>
+
+                <a href="face.html" class="group relative h-64 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1557205465-f3762edea6d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm91bmRhdGlvbiUyMG1ha2V1cHxlbnwwfHwwfHx8MA%3D%3D" alt="Face" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+                    <h3 class="absolute bottom-5 left-5 text-white text-xl font-semibold">Face</h3>
+                </a>
+
+                <a href="nails.html" class="group relative h-64 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1723647395168-d916159b78c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5haWwlMjBwb2xpc2h8ZW58MHx8MHx8fDA%3D" alt="Nails" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+                    <h3 class="absolute bottom-5 left-5 text-white text-xl font-semibold">Nails</h3>
+                </a>
+
+                <a href="Cleansers.html" class="group relative h-64 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1616750819456-5cdee9b85d22?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="Skincare" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+                    <h3 class="absolute bottom-5 left-5 text-white text-xl font-semibold">Skin</h3>
+                </a>
+
+                <a href="womensfrag.html" class="group relative h-64 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1458538977777-0549b2370168?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="Fragrances" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+                    <h3 class="absolute bottom-5 left-5 text-white text-xl font-semibold">Fragrances</h3>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+   <!-- New Launches -->
+<section id="new-launches" class="py-14 sm:py-16 md:py-20 bg-[#F0F8F0]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-8 sm:mb-10">
+            <p class="text-[#40826D] text-xs sm:text-sm font-semibold uppercase tracking-[2px] sm:tracking-[3px]">
+                Just Arrived
+            </p>
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mt-2">
+                New Launches
+            </h2>
+            <p class="text-gray-500 text-sm sm:text-base mt-3 max-w-xl mx-auto">
+                Be the first to explore our newest beauty arrivals.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://media.istockphoto.com/id/1496271539/photo/smears-of-shining-lip-gloss-and-lip-gloss-brush-on-white-background-hard-shadows.jpg?s=612x612&w=0&k=20&c=8sP-M0p-Vptl4n3LHzrxYWtssE0qwVDiNEhlazQZZeI=" alt="Lip Gloss" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Glide Plumping Gloss Stick
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹390.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://media.istockphoto.com/id/1278819905/photo/gold-round-compact-with-mirror-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=CpDVAZKsF3oIqhr9wD7UGRZAO1nBSzzUkX1YJ0AQOy4=" alt="Cushion Foundation" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Glow Nest Hya Beach Edit Cushion Foundation
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹599.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1650572447986-67826c71798d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpcCUyMGxpbmVyJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" alt="Lip Liner" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Lipping on the Edge Lip Liner
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹115.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://plus.unsplash.com/premium_photo-1726840825289-8de3e79e42d5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJsdXNoJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" alt="Blush" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Glow Nest 9 to 5 Powerplay Velvet Crème Blush
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹799.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1547934659-7fa699ef3ce0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZXllJTIwc2hhZG93JTIwcGFsZXR0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="Eyeshadow Palette" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Glow Nest Glitterati Chroma Chic Eye Shadow Palette
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹1,249.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://media.istockphoto.com/id/2258836798/photo/white-blank-cream-tube-against-green-leaves-on-grey-stone-in-white-bathroom-mockup.webp?a=1&b=1&s=612x612&w=0&k=20&c=iuO-Gwhm8z9bVH-Edokekuvs0EO1MemdbiDyWuAf-Zw=" alt="Lip Balm" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Tipsy Lips Moisturizing Balm
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹199.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1594527964562-32ed6eb11709?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3Vuc2NyZWVufGVufDB8fDB8fHww" alt="Sunscreen" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Tan Kojic Acid Sunscreen
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹449.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1631237535134-e009a5939d9c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RXllJTIwbGluZXIlMjBwcm9kdWN0fGVufDB8fDB8fHww" alt="Eye Liner" class="h-56 sm:h-60 w-full object-cover">
+                <div class="p-4 sm:p-5">
+                    <h3 class="font-semibold text-gray-800 min-h-12 text-sm sm:text-base">
+                        Double Matte Eyeliner - 01
+                    </h3>
+                    <p class="text-[#40826D] font-bold text-lg mt-3">
+                        ₹749.00
+                    </p>
+                    <button class="w-full mt-4 bg-[#40826D] text-white text-xs sm:text-sm font-semibold py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg hover:bg-[#5F8575] transition duration-300 whitespace-nowrap">
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Best Sellers -->
+    <section class="py-20 bg-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex items-end justify-between mb-10">
+                <div>
+                    <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                        Customer Favorites
+                    </p>
+                    <h2 class="text-4xl font-serif font-bold mt-2">
+                        Best Sellers
+                    </h2>
+                </div>
+
+                <a href="#" class="hidden md:block text-[#40826D] font-semibold">
+                    View All →
+                </a>
+            </div>
+
+            <div class="flex gap-6 overflow-x-auto pb-4">
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1631214499943-07647378b067?w=600" alt="Mascara" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Bold Unfold Waterproof Mascara</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹599.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://media.istockphoto.com/id/1754705751/photo/stylish-presentation-of-bottles-and-tube-with-skin-foundation-on-white-background-makeup.webp?a=1&b=1&s=612x612&w=0&k=20&c=3j04_W6-7b-pL161t3g4tVDsil0ZWL2dWb2b_Sydoo0=" alt="Concealer" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Glow Nest Full Coverage Concealer</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹249.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://plus.unsplash.com/premium_photo-1670344356777-75c732e52b6f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI4fHx8ZW58MHx8fHx8" alt="Nail Polish" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Tip Tac Toe Nail Lacquer Classic</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹199.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://media.istockphoto.com/id/2081097263/photo/lip-gloss-applicator-on-red-lips-gloss-stroke.jpg?s=612x612&w=0&k=20&c=nLxqh6DYvvogzWJX0l8n8ab5P6e3Qmo30QICTPlXBGQ=" alt="Blush" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Cloud Nine Niacinamide Glow Blush</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹349.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://media.istockphoto.com/id/1482800244/photo/green-make-up-bones-on-a-light-background-with-a-highlighter.webp?a=1&b=1&s=612x612&w=0&k=20&c=NgeMFTp1Hzm35-f47ptAaV5lGSeB_I6GOfVS2qQPhJs=" alt="Highlighter" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Contour De Force Mini Highlighter</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹249.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://plus.unsplash.com/premium_photo-1681364365252-387c05c06c40?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QkIlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D" alt="BB Cream" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Fit Me Glow BB Cream</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹429.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1704297004699-9bd54f75081e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByaW1lciUyMGNvc21ldGljJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" alt="Lip Serum" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">The Ordinary PHA 5% Exfoliating Lip Serum</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹429.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1739950839930-ef45c078f316?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="Cleansing Milk" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Deep Pore Cleansing Milk for Oily & Dry Skin</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹399.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://media.istockphoto.com/id/1255590927/photo/transparent-cosmetic-bottle-in-water.webp?a=1&b=1&s=612x612&w=0&k=20&c=UlJ1A1q06w3U-9lAsrgs5ImXIhe5CrivFuDMo3JlUlI=" alt="Setting Spray" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Glow Up Makeup Fixer Setting Spray</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹332.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="min-w-[260px] bg-[#F8F5F2] rounded-2xl overflow-hidden">
+                    <img src="https://plus.unsplash.com/premium_photo-1758633868376-7dd1ee632382?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="Mini Lipstick" class="w-full h-60 object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Creamy Matte Mini Lipstick</h3>
+                        <p class="text-[#40826D] font-bold text-lg mt-3">₹1,150.00</p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Combo Collections -->
+    <section class="py-20 bg-[#F0F8F0]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-10">
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                    Save More
+                </p>
+                <h2 class="text-4xl font-serif font-bold mt-2">
+                    Combo Collections
+                </h2>
+                <p class="text-gray-500 mt-3">
+                    Perfectly paired beauty essentials for complete care.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <div class="bg-white rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1606231567442-1c00323181e7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNldCUyMG9mJTIwMyUyMG1hdHRlJTIwbGlwc3RpY2t8ZW58MHx8MHx8fDA%3D" alt="Lipstick Set" class="h-52 w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">Set of 3 Satin Matte Lipstick</h3>
+                        <p class="font-bold text-[#40826D] mt-3">₹249.00</p>
+                        <p class="text-sm mt-1"><del>₹897.00</del> <span class="text-green-700">72% OFF</span></p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1636833777376-4487142e8e17?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="Perfume Gift Set" class="h-52 w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">16 HR Perfume Gift Set</h3>
+                        <p class="font-bold text-[#40826D] mt-3">₹299.00</p>
+                        <p class="text-sm mt-1"><del>₹996.00</del> <span class="text-green-700">70% OFF</span></p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1667242196595-0f8f28afb92d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENvbWJvJTIwbmFpbCUyMHBvbGlzaHxlbnwwfHwwfHx8MA%3D%3D" alt="Nail Polish Kit" class="h-52 w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">4 in 1 Nail Polish Kit</h3>
+                        <p class="font-bold text-[#40826D] mt-3">₹249.00</p>
+                        <p class="text-sm mt-1"><del>₹310.00</del> <span class="text-green-700">20% OFF</span></p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden">
+                    <img src="https://media.istockphoto.com/id/2275334913/photo/different-lip-glosses-on-pink-background-flat-lay.webp?a=1&b=1&s=612x612&w=0&k=20&c=GwwG2Z99K41Wh06ZqwJyiP-bfnaFOr1BtdSQwQgEmLs=" alt="Mini Lip Color Set" class="h-52 w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="font-semibold">6 in 1 Mini Matte Lip Color</h3>
+                        <p class="font-bold text-[#40826D] mt-3">₹799.00</p>
+                        <p class="text-sm mt-1"><del>₹1,116.00</del> <span class="text-green-700">28% OFF</span></p>
+                        <button class="w-full mt-4 bg-[#40826D] text-white py-3 rounded-lg">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Founder -->
+    <section class="bg-white">
+
+        <div class="grid md:grid-cols-2">
+
+            <div class="min-h-[430px]">
+                <img
+                    src="https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+                    alt="Glow Nest Beauty"
+                    class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex items-center px-8 py-14 md:px-14">
+                <div class="max-w-lg">
+
+                    <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                        Our Story
+                    </p>
+
+                    <h2 class="text-4xl font-serif font-bold mt-3">
+                        A Little Note From Glow Nest
+                    </h2>
+
+                    <p class="text-gray-600 leading-7 mt-6">
+                        We built Glow Nest with one simple belief: beauty should
+                        feel personal, comfortable and easy to enjoy.
+                    </p>
+
+                    <p class="text-gray-600 leading-7 mt-4">
+                        From everyday makeup to skincare and haircare,
+                        every collection is created to bring useful beauty
+                        essentials together in one place.
+                    </p>
+
+                    <a href="#" class="inline-block mt-7 text-[#40826D] font-semibold border-b border-[#40826D] pb-1">
+                        Discover Our Story
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Trust Section -->
+    <section class="py-16 bg-[#F0F8F0]">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <div class="text-center mb-10">
+                <p class="text-[#40826D] text-sm font-semibold uppercase tracking-[3px]">
+                    Shop With Confidence
+                </p>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold mt-2">
+                    Why Shop Glow Nest?
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="bg-white rounded-2xl p-7 text-center">
+                    <div class="text-4xl">↩</div>
+                    <h3 class="font-semibold text-lg mt-4">Easy Returns</h3>
+                    <p class="text-gray-500 text-sm mt-2">
+                        Simple support when you need help with your order.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 text-center">
+                    <div class="text-4xl">♡</div>
+                    <h3 class="font-semibold text-lg mt-4">Cruelty Free</h3>
+                    <p class="text-gray-500 text-sm mt-2">
+                        Beauty choices made with care and consideration.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 text-center">
+                    <div class="text-4xl">✦</div>
+                    <h3 class="font-semibold text-lg mt-4">Quality First</h3>
+                    <p class="text-gray-500 text-sm mt-2">
+                        Everyday beauty essentials selected with quality in mind.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-[#14200F] text-[#E8DCC4] pt-14 pb-8">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 pb-12">
+
+                <div>
+                    <p class="text-2xl italic text-white">Glow Nest</p>
+                    <p class="text-sm text-[#E8DCC4]/70 mt-3">
+                        Glow Beyond Beauty.
+                    </p>
+                    <img src="1img/logobg.png" alt="Glow Nest Logo" class="w-36 h-36 mt-5 object-contain">
+                </div>
+
+                <div>
+                    <p class="text-xs uppercase tracking-[3px] text-[#C1E1C1] font-semibold mb-5">
+                        Orders
+                    </p>
+                    <div class="space-y-3 text-sm">
+                        <a href="#" class="block hover:text-white">Track Order</a>
+                        <a href="#" class="block hover:text-white">Cancel Order</a>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-xs uppercase tracking-[3px] text-[#C1E1C1] font-semibold mb-5">
+                        Help
+                    </p>
+                    <div class="space-y-3 text-sm">
+                        <a href="#" class="block hover:text-white">Contact Us</a>
+                        <a href="#" class="block hover:text-white">Terms & Conditions</a>
+                        <a href="#" class="block hover:text-white">Privacy Policy</a>
+                        <a href="#" class="block hover:text-white">Cancellation & Refunds</a>
+                        <a href="#" class="block hover:text-white">Shipping & Delivery</a>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-xs uppercase tracking-[3px] text-[#C1E1C1] font-semibold mb-5">
+                        Contact
+                    </p>
+                    <div class="space-y-3 text-sm text-[#E8DCC4]/75">
+                        <p>glowandnest@gmail.com</p>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between gap-4 text-xs text-[#E8DCC4]/60">
+                <p>© 2026 Glow Nest. All rights reserved.</p>
+
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-white">Instagram</a>
+                    <a href="#" class="hover:text-white">YouTube</a>
+                    <a href="#" class="hover:text-white">Newsletter</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
